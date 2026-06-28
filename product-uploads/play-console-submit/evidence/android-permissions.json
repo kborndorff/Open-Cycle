@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-06-28T08:29:54.486Z",
+  "status": "pass",
+  "secretSafe": true,
+  "manifestPath": "apps/mobile/android/app/src/main/AndroidManifest.xml",
+  "buildGradlePath": "apps/mobile/android/app/build.gradle",
+  "packageName": "com.opencycle.app",
+  "applicationId": "com.opencycle.app",
+  "versionCode": 2,
+  "versionName": "2.0",
+  "requestedPermissions": [],
+  "dangerousPermissionsRequested": [],
+  "internetPermissionRequested": false,
+  "allowBackup": false,
+  "fullBackupContentDisabled": true,
+  "launcherExported": true,
+  "validationCommands": [
+    "npm run generate:android-permissions",
+    "npm run validate:android-permissions",
+    "npm run validate:android -- --require-aab",
+    "npm run validate:privacy-parity"
+  ],
+  "checks": [
+    {
+      "scope": "Android manifest",
+      "status": "pass",
+      "detail": "No Android runtime permissions are requested by the public local-only manifest."
+    },
+    {
+      "scope": "Android manifest",
+      "status": "pass",
+      "detail": "android.permission.INTERNET is not requested."
+    },
+    {
+      "scope": "Android manifest",
+      "status": "pass",
+      "detail": "android:allowBackup is false."
+    },
+    {
+      "scope": "Android manifest",
+      "status": "pass",
+      "detail": "android:fullBackupContent is false."
+    },
+    {
+      "scope": "Android manifest",
+      "status": "pass",
+      "detail": "Launcher activity explicitly declares android:exported for Play compatibility."
+    },
+    {
+      "scope": "Android identity",
+      "status": "pass",
+      "detail": "Gradle applicationId matches Play package name com.opencycle.app."
+    },
+    {
+      "scope": "Android identity",
+      "status": "pass",
+      "detail": "Gradle versionCode is present."
+    },
+    {
+      "scope": "Android identity",
+      "status": "pass",
+      "detail": "Gradle versionName is present."
+    }
+  ],
+  "failures": []
+}

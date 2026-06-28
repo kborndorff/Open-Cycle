@@ -1,0 +1,23 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1080" height="1920" fill="#edf1f7" />
+      <rect x="118" y="72" width="844" height="1776" rx="58" fill="#26324a" />
+      <rect x="146" y="112" width="788" height="1696" rx="38" fill="#f7f9fc" />
+      <rect x="432" y="88" width="216" height="22" rx="11" fill="#52637f" />
+      
+      <text x="206" y="230" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="54" font-weight="700">Review entries</text>
+      <text x="206" y="292" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28">See recent cycle history at a glance.</text>
+      <rect x="206" y="386" width="668" height="162" rx="20" fill="#ffffff" stroke="#d8deea" />
+      <text x="250" y="452" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="34" font-weight="700">Medium flow</text>
+      <text x="250" y="504" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="25">Cramps, low back pain - calm</text>
+      <rect x="206" y="584" width="668" height="162" rx="20" fill="#ffffff" stroke="#d8deea" />
+      <text x="250" y="650" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="34" font-weight="700">Light flow</text>
+      <text x="250" y="702" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="25">Headache - tired</text>
+      <rect x="206" y="782" width="668" height="162" rx="20" fill="#ffffff" stroke="#d8deea" />
+      <text x="250" y="848" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="34" font-weight="700">Heavy flow</text>
+      <text x="250" y="900" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="25">Fatigue - resting</text>
+      <rect x="206" y="1080" width="668" height="116" rx="16" fill="#eef2fa" stroke="#cfd7e6" />
+      <text x="540" y="1152" text-anchor="middle" fill="#40516d" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="30" font-weight="700">Edit flow</text>
+      <rect x="206" y="1232" width="668" height="116" rx="16" fill="#f8ecec" stroke="#e3b8b8" />
+      <text x="540" y="1304" text-anchor="middle" fill="#6f2d2d" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="30" font-weight="700">Delete one entry</text>
+    
+    </svg>

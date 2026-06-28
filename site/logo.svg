@@ -1,0 +1,28 @@
+<svg width="280" height="280" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="140" cy="140" r="132" fill="#edf1f7" />
+  <circle cx="140" cy="140" r="104" fill="#ffffff" fill-opacity="0.92" />
+  <circle cx="140" cy="140" r="100" stroke="#6d7e96" stroke-width="9" fill="none" />
+  <circle cx="140" cy="140" r="16" fill="#6d7e96" />
+  <circle cx="220" cy="140" r="13" fill="#4f607f" />
+  <circle cx="60" cy="140" r="13" fill="#4f607f" />
+  <circle cx="140" cy="60" r="13" fill="#4f607f" />
+  <circle cx="140" cy="220" r="13" fill="#4f607f" />
+  <path d="M140 140L140 60" stroke="#4f607f" stroke-width="8" stroke-linecap="round" />
+  <path d="M140 140L220 140" stroke="#4f607f" stroke-width="8" stroke-linecap="round" />
+  <path d="M140 140L98 98" stroke="#4f607f" stroke-width="7" stroke-linecap="round" />
+  <path d="M140 140L182 182" stroke="#4f607f" stroke-width="7" stroke-linecap="round" />
+  <circle cx="140" cy="140" r="52" stroke="#9aaec7" stroke-width="6" stroke-dasharray="6 10" />
+  <path d="M91 140 L74 140 M206 140 L223 140 M140 91 L140 74 M140 206 L140 223" stroke="#b0bdd1" stroke-width="3.5" stroke-linecap="round" />
+  <text
+    x="140"
+    y="266"
+    text-anchor="middle"
+    fill="#3d4b61"
+    font-size="20"
+    font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif"
+    letter-spacing="1.2"
+    font-weight="600"
+  >
+    LOCAL CORE
+  </text>
+</svg>

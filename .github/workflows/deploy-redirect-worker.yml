@@ -1,0 +1,36 @@
+name: Deploy Legacy Redirect Worker to Cloudflare
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "deploy/cloudflare/redirect-worker.js"
+      - "deploy/cloudflare/wrangler-worker.toml"
+      - ".github/workflows/deploy-redirect-worker.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-worker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Deploy legacy redirect worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: |
+            deploy deploy/cloudflare/redirect-worker.js \
+              --config deploy/cloudflare/wrangler-worker.toml \
+              --name ${{ vars.CF_WORKER_NAME || 'open-cycle-legacy-redirect' }}

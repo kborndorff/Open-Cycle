@@ -1,0 +1,34 @@
+# open-cycle
+
+open-cycle is a free, privacy-first period tracking app.
+
+The app helps people record period dates, flow, symptoms, moods, and notes. It is designed for simple everyday tracking, not medical advice, diagnosis, or treatment.
+
+Core privacy position:
+- No account is required for cycle tracking.
+- No ads, ad SDKs, hidden analytics, or required cloud sync are used for core tracking.
+- Cycle entries are stored locally on the user's phone or browser.
+- The app does not collect, sell, share, transmit, or monetize personal cycle data.
+- Users can delete individual entries or clear local entries.
+
+Useful pages:
+- Home: https://open-cycle.com/
+- Privacy policy: https://open-cycle.com/privacy.html
+- License terms: https://open-cycle.com/license.html
+- Blog: https://open-cycle.com/blog/
+- Local-only period tracker guide: https://open-cycle.com/blog/local-only-period-tracker.html
+- Health app data sharing examples: https://open-cycle.com/blog/health-app-data-sharing.html
+- Period tracker privacy questions: https://open-cycle.com/blog/period-tracker-privacy-questions.html
+- No-account period tracker guide: https://open-cycle.com/blog/no-account-period-tracker.html
+- Period tracker without internet guide: https://open-cycle.com/blog/period-tracker-without-internet.html
+- Full source: https://github.com/kborndorff/open-cycle-source
+- Public proof and release materials: https://github.com/kborndorff/Open-Cycle
+
+Related product:
+- Local Cycle is the optional one-time paid feature path for reminders, exports, and richer pattern views: https://local-cycle.com
+
+Suggested short description:
+open-cycle is a free privacy-first period tracking app that stores cycle notes locally on your phone or browser, without accounts, ads, hidden tracking, or required cloud sync.
+
+Suggested longer description:
+open-cycle is a simple local-only cycle tracker for period dates, flow, symptoms, moods, and notes. It is built for people who want a clear wellness log without creating an account or sending cycle entries to a remote service. It is not medical advice.

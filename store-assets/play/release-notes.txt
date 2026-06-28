@@ -1,0 +1,5 @@
+open-cycle 2.0
+
+- Free local cycle logging with no account, ads, hidden tracking, or cloud sync.
+- Cycle data stays on your device for core tracking.
+- Public source and privacy policy are available for review.

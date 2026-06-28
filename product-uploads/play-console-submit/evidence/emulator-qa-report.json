@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-06-28T06:48:58.055Z",
+  "status": "pass",
+  "failures": [],
+  "emulator": {
+    "avd": "Medium_Phone_API_35",
+    "packageName": "com.opencycle.app",
+    "installedVersionCode": 2,
+    "installedVersionName": "2.0"
+  },
+  "evidence": {
+    "signedAabDerivedApks": {
+      "exists": false
+    },
+    "emulatorDebugApk": {
+      "exists": true,
+      "bytes": 4110924,
+      "updatedAt": "2026-06-28T06:41:25.494Z",
+      "path": "reports/signed-runtime-qa/open-cycle-emulator-debug.apk"
+    },
+    "launchScreenshot": {
+      "exists": true,
+      "bytes": 562627,
+      "updatedAt": "2026-06-28T06:46:36.977Z",
+      "path": "reports/visuals/android-emulator-app.png"
+    },
+    "cycleLogScreenshot": {
+      "exists": true,
+      "bytes": 251107,
+      "updatedAt": "2026-06-28T06:48:07.429Z",
+      "path": "reports/visuals/android-emulator-cycle-log.png"
+    },
+    "savedEntryScreenshot": {
+      "exists": true,
+      "bytes": 230419,
+      "updatedAt": "2026-06-28T06:48:29.528Z",
+      "path": "reports/visuals/android-emulator-saved-entry.png"
+    },
+    "uiAutomatorWindow": {
+      "exists": true,
+      "bytes": 21243,
+      "updatedAt": "2026-06-28T06:48:32.621Z",
+      "path": "reports/visuals/android-window.xml"
+    },
+    "webViewDom": {
+      "exists": true,
+      "bytes": 5857,
+      "updatedAt": "2026-06-28T06:47:45.013Z",
+      "path": "reports/visuals/android-webview-dom.json"
+    }
+  },
+  "installSource": {
+    "type": "debug-or-manual-emulator-install",
+    "signingBoundary": "No signed-AAB-derived APK set was found in reports/signed-runtime-qa."
+  },
+  "observations": {
+    "appSignals": [
+      "open-cycle",
+      "Your cycle log",
+      "Your privacy",
+      "See Local Cycle features"
+    ],
+    "interactionSignals": [
+      "Total entries: ",
+      "Latest entry: ",
+      "Entry saved.",
+      "Clear all entries",
+      "Recent cycle entries",
+      "Delete"
+    ],
+    "packageSignals": [
+      "package=\"com.opencycle.app\"",
+      "resource-id=\"com.opencycle.app:id/action_bar_root\"",
+      "class=\"android.webkit.WebView\""
+    ],
+    "stalePackageSignals": [],
+    "systemAnrSignals": [],
+    "status": "app-interaction-passed"
+  },
+  "notes": [
+    "A debug APK from the current open-cycle build installed on the emulator for public visual QA evidence. This is not the Play upload artifact.",
+    "The current UIAutomator dump shows the com.opencycle.app package with its Android WebView in focus.",
+    "WebView text is not reliably exposed through UIAutomator, so renderer DOM evidence and screenshots prove rendered app content.",
+    "The saved-entry screenshot and WebView DOM evidence prove a default cycle entry was added on the emulator.",
+    "This local emulator install path does not replace Play Console/internal-testing confirmation for the final signed runtime QA checklist.",
+    "If systemAnrSignals is non-empty, the AVD system UI is blocking the app and the screenshot should be recaptured after dismissing the emulator dialog."
+  ]
+}

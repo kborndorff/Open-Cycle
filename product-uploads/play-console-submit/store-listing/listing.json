@@ -1,0 +1,124 @@
+{
+  "appName": "open-cycle",
+  "packageName": "com.opencycle.app",
+  "category": "Health & Fitness",
+  "price": "Free",
+  "containsAds": false,
+  "inAppPurchases": false,
+  "accountRequired": false,
+  "internetRequiredForCoreTracking": false,
+  "shortDescription": "Free privacy-first period tracker. No account, ads, or cloud sync.",
+  "fullDescription": "open-cycle is a simple, free, privacy-first period tracker. Save dates, flow, symptoms, moods, and notes so you can remember what happened and notice patterns over time.\n\nYou do not need an account to use the tracker. There are no ads, no required cloud sync, and no required internet connection to add or review entries. Your saved entries stay on your phone.\n\nopen-cycle is a personal wellness log, not medical advice, diagnosis, or treatment. Talk with a doctor or qualified clinician about health concerns.\n\nFor reminders, exports, richer pattern views, and a larger feature set, Local Cycle offers a separate one-time paid option at local-cycle.com. open-cycle remains free for everyday tracking.",
+  "privacyPolicyUrl": "https://open-cycle.com/privacy",
+  "temporaryPrivacyPolicyUrlBeforeCustomDomainValidation": "https://open-cycle-site.pages.dev/privacy",
+  "customDomainValidationCommand": "npm run validate:custom-domain:live",
+  "supportUrl": "https://github.com/kborndorff/Open-Cycle/issues",
+  "dataSafety": {
+    "dataCollected": "None",
+    "dataSharedWithThirdParties": false,
+    "accountDeletionRequired": false,
+    "accountDeletionReason": "The app does not create accounts.",
+    "userDataDeletion": "Users can delete one entry or clear all entries saved on this device in the app. Uninstalling the app also removes app storage according to Android behavior.",
+    "locationDataCollected": false,
+    "healthDataCollected": false,
+    "financialInfoCollected": false,
+    "contactsCollected": false,
+    "photosVideosAudioFilesCollected": false,
+    "deviceIdentifiersCollectedByAppCode": false,
+    "advertisingIdUsed": false
+  },
+  "adsDeclaration": {
+    "containsAds": false,
+    "usesAdvertisingId": false,
+    "usesAdSdks": false,
+    "servesAdsToChildren": false,
+    "usesLocationDataForAds": false,
+    "usesAnalyticsForAdsMeasurement": false,
+    "monetizesThroughAds": false,
+    "madeForAdsBehavior": false
+  },
+  "appAccess": {
+    "loginRequired": false,
+    "accountCreationAvailable": false,
+    "specialAccessInstructionsRequired": false,
+    "testAccountCredentialsRequired": false,
+    "paidFeatureGateBlocksReview": false,
+    "networkRequiredForCoreReviewPath": false,
+    "reviewerInstructions": "No login, account, test credentials, subscription, purchase, or internet access is required. Install the app, open open-cycle, add an entry, edit it, delete one entry, and clear all entries saved on this device."
+  },
+  "targetAudience": {
+    "targetAgeGroups": [
+      "18 and over"
+    ],
+    "designedForChildren": false,
+    "includesChildrenInTargetAudience": false,
+    "familiesPolicyApplies": false,
+    "restrictMinorAccessRecommended": true,
+    "neutralAgeScreenRequired": false,
+    "childDirectedMarketing": false,
+    "adsServedToChildren": false,
+    "ownerReviewRequired": true,
+    "rationale": "Period tracking can involve sensitive wellness context, so the first public Play release should use a conservative adult-only target audience unless the owner intentionally chooses a broader policy posture."
+  },
+  "assets": {
+    "appIcon": "store-assets/play/app-icon.png",
+    "featureGraphic": "store-assets/play/feature-graphic.png",
+    "phoneScreenshots": [
+      "store-assets/play/phone-screenshot-1.png",
+      "store-assets/play/phone-screenshot-2.png",
+      "store-assets/play/phone-screenshot-3.png",
+      "store-assets/play/phone-screenshot-4.png"
+    ],
+    "tablet7Screenshots": [
+      "store-assets/play/tablet-7-screenshot-1.png",
+      "store-assets/play/tablet-7-screenshot-2.png",
+      "store-assets/play/tablet-7-screenshot-3.png",
+      "store-assets/play/tablet-7-screenshot-4.png"
+    ],
+    "tablet10Screenshots": [
+      "store-assets/play/tablet-10-screenshot-1.png",
+      "store-assets/play/tablet-10-screenshot-2.png",
+      "store-assets/play/tablet-10-screenshot-3.png",
+      "store-assets/play/tablet-10-screenshot-4.png"
+    ],
+    "editableSources": [
+      "store-assets/play/app-icon.svg",
+      "store-assets/play/feature-graphic.svg",
+      "store-assets/play/phone-screenshot-1.svg",
+      "store-assets/play/phone-screenshot-2.svg",
+      "store-assets/play/phone-screenshot-3.svg",
+      "store-assets/play/phone-screenshot-4.svg",
+      "store-assets/play/tablet-7-screenshot-1.svg",
+      "store-assets/play/tablet-7-screenshot-2.svg",
+      "store-assets/play/tablet-7-screenshot-3.svg",
+      "store-assets/play/tablet-7-screenshot-4.svg",
+      "store-assets/play/tablet-10-screenshot-1.svg",
+      "store-assets/play/tablet-10-screenshot-2.svg",
+      "store-assets/play/tablet-10-screenshot-3.svg",
+      "store-assets/play/tablet-10-screenshot-4.svg"
+    ]
+  },
+  "assetAltText": {
+    "store-assets/play/app-icon.png": "open-cycle circular cycle tracker icon with four marked cycle points.",
+    "store-assets/play/feature-graphic.png": "open-cycle feature graphic describing free local period tracking with no account or cloud sync.",
+    "store-assets/play/phone-screenshot-1.png": "Phone view of the cycle log form, saved entries, and no-internet-required message.",
+    "store-assets/play/phone-screenshot-2.png": "Phone dashboard showing simple entries, latest entry summary, and privacy copy that says entries stay on this device.",
+    "store-assets/play/phone-screenshot-3.png": "Phone view showing recent cycle entries with edit and delete controls.",
+    "store-assets/play/phone-screenshot-4.png": "Phone controls screen showing total entries and clear-all local entries option.",
+    "store-assets/play/tablet-7-screenshot-1.png": "7-inch tablet dashboard showing entry count, latest entry, and no internet requirement.",
+    "store-assets/play/tablet-7-screenshot-2.png": "7-inch tablet entry form for date, flow, mood, symptoms, notes, and saving an entry.",
+    "store-assets/play/tablet-7-screenshot-3.png": "7-inch tablet review screen with recent entries plus edit and delete controls.",
+    "store-assets/play/tablet-7-screenshot-4.png": "7-inch tablet privacy screen showing no ads or hidden tracking and clear-all local entries.",
+    "store-assets/play/tablet-10-screenshot-1.png": "10-inch tablet dashboard showing entry count, latest entry, and no internet requirement.",
+    "store-assets/play/tablet-10-screenshot-2.png": "10-inch tablet entry form for date, flow, mood, symptoms, notes, and saving an entry.",
+    "store-assets/play/tablet-10-screenshot-3.png": "10-inch tablet review screen with recent entries plus edit and delete controls.",
+    "store-assets/play/tablet-10-screenshot-4.png": "10-inch tablet privacy screen showing no ads or hidden tracking and clear-all local entries."
+  },
+  "releaseChecks": [
+    "npm run validate:release",
+    "npm run mobile:build:aab",
+    "npm run validate:android -- --require-aab",
+    "npm run preflight:play-store",
+    "npm run validate:android -- --require-signed"
+  ]
+}

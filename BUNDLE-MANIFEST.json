@@ -1,0 +1,1359 @@
+{
+  "generatedAt": "2026-06-28T09:01:34.672Z",
+  "repository": "https://github.com/kborndorff/Open-Cycle",
+  "purpose": "Public proof, security/privacy documentation, store-facing product upload materials, release helpers, and public-safe evidence.",
+  "privateMaterialIncluded": false,
+  "signedAabIncluded": false,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 732,
+      "sha256": "9234961f0c021ad230192ec3add5b7e5100cb0c85ceddf6d70e44b89a465aa58"
+    },
+    {
+      "path": ".github/workflows/android-aab.yml",
+      "bytes": 512,
+      "sha256": "ff7c717199235725281da5a95569ee32a6dc3dfacd4b30bc8e683bbb75b249ef"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 614,
+      "sha256": "c174c328aa4278c54e3aae4b9e49be3d61bc994ed2d75f81845f853cf8757b23"
+    },
+    {
+      "path": ".github/workflows/deploy-redirect-worker.yml",
+      "bytes": 950,
+      "sha256": "3138b57512cad9b46c23fa703f97e517fafcc97d3a9b71d5b7a322800b722f5e"
+    },
+    {
+      "path": ".github/workflows/deploy-site.yml",
+      "bytes": 1631,
+      "sha256": "11ce96fbfe899523371409cc9c46269ac3283bb0fbab7b667f5875855e317151"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 635,
+      "sha256": "abff0f90150da66a6d0f84ceac4c75113eb9697773ffa172065be7b524870a8d"
+    },
+    {
+      "path": "docs/android-keystore-handling.md",
+      "bytes": 3057,
+      "sha256": "5b797bf506269b9a66ec7aed8cad6baf47b661a5a689025d235e154b84a1ac65"
+    },
+    {
+      "path": "docs/cloudflare-pages-domain-diagnostics.md",
+      "bytes": 2749,
+      "sha256": "837621f5a68b8862f45af5761eb3323cb4d1af8d7d72834776c5d4291940967e"
+    },
+    {
+      "path": "docs/custom-domain-cloudflare.md",
+      "bytes": 3306,
+      "sha256": "44da0c71d712f157ab1b5afbe80042241eeb97cedc9d531269f2e664e4fa56f8"
+    },
+    {
+      "path": "docs/deployment-secrets.md",
+      "bytes": 6380,
+      "sha256": "42d771105e1d318a624dbe3ebb550493cd21c684a89608adca84799daca54b1f"
+    },
+    {
+      "path": "docs/github-and-visibility.md",
+      "bytes": 4636,
+      "sha256": "6a865c410cdc9e7a45f4de6044aea2b7a77b9f4bf1fa86d4dd26c4a93a079ebd"
+    },
+    {
+      "path": "docs/github-web-publication.md",
+      "bytes": 4935,
+      "sha256": "39cbc281ce04ad8863f1b6cead0c289edfe340eaaf5d7c3c422cfcdded041f15"
+    },
+    {
+      "path": "docs/mobile-release.md",
+      "bytes": 5358,
+      "sha256": "e2188f920f685a8c977f1af8a1378dceac7f82885c32aef358129c21cefe1376"
+    },
+    {
+      "path": "docs/owner-tooling.md",
+      "bytes": 7126,
+      "sha256": "79189c804771b4097cf3cd4f823cd9ca16b12abd0dff153cee67a9d9396ed2f9"
+    },
+    {
+      "path": "docs/play-store-release.md",
+      "bytes": 11850,
+      "sha256": "fbbfd8b8a1eaecdf0f674a7722364a4c033b4b7f92d0788be275f0ddde1bcda5"
+    },
+    {
+      "path": "docs/release-evidence.md",
+      "bytes": 10037,
+      "sha256": "a3aeabbeb9ef8ba51fadbf78156d21cf8bbcf336e4d99edbbd970d390790068b"
+    },
+    {
+      "path": "docs/release-owner-checklist.md",
+      "bytes": 9361,
+      "sha256": "dccae202ba33bda282a7880b78f4e23397bc12dcf1be7f8e27bbf7251315b3e3"
+    },
+    {
+      "path": "docs/runtime-qa.md",
+      "bytes": 3086,
+      "sha256": "2d2360a6d352ed8bab743b13cb928b944f52f6c3b6321d24b6ff78f4494de255"
+    },
+    {
+      "path": "docs/validation-matrix.md",
+      "bytes": 16079,
+      "sha256": "21153bcf47af747dda7f629b1ac070b5a3c26b75fd15f0581bb406614284f018"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 3371,
+      "sha256": "8659ece9762a044fe4654af3cd04bdb349c89e22f9b6d872aeed499e343dfb3a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 174026,
+      "sha256": "f1abd2348d6d67b6ea12616212fc81fd9e10fa155e34b2db6b2507e38a81c7b1"
+    },
+    {
+      "path": "package.json",
+      "bytes": 21463,
+      "sha256": "580828555ef7ce827393ac775dff2a54a5a850e97b5af5d6b1ba29cc62597454"
+    },
+    {
+      "path": "playwright.config.ts",
+      "bytes": 1038,
+      "sha256": "dc21a0f7d2d8ebd783f367e610a8318f521bc4bd657c828bfb5e31948277afa9"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/android-permissions.json",
+      "bytes": 1906,
+      "sha256": "dbc22855ed782db82bac2ff2e0e4a51fe80021970f3b974c3919b948bdce488a"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/emulator-qa-report.json",
+      "bytes": 3028,
+      "sha256": "cc939dea611ebc1dce79dda02702dced702814e64dace431432fa1233fc05930"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/play-store-preflight.json",
+      "bytes": 4089,
+      "sha256": "3487818b00575970809684a7622d767a7055d9cacb38a9e47766e600ecf44c9d"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visual-evidence-manifest.json",
+      "bytes": 13064,
+      "sha256": "20d7073f7ef01db06a2962a3d63ffee08cc3168dfe1a39ac1933fbb97af97bba"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/android-emulator-app.png",
+      "bytes": 562627,
+      "sha256": "da269ec72582a7d1800b6463f05cd8b604c47d06a836ad59bc32a9e58eb3faac"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/android-emulator-cycle-log.png",
+      "bytes": 251107,
+      "sha256": "82bba98fba66d7ee238ad08e0739cc8dd6f09c43e645b8761392b640f8dc6335"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/android-emulator-saved-entry.png",
+      "bytes": 230419,
+      "sha256": "53491b968f29fed6455e915312425ca6e56cab32a734a417fdc72a835bc2d08e"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/android-webview-dom.json",
+      "bytes": 5857,
+      "sha256": "6f10489d46d02912f8a8f59c4611a0e146cf42f0a9c90ebefe185059103e59b3"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/android-window.xml",
+      "bytes": 21243,
+      "sha256": "e338ffd6fc9b5b9eec7a79e33bb3cced156406c85189703c03a17132b202d321"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/app-desktop.png",
+      "bytes": 317527,
+      "sha256": "45fb673ada07b41ecb1d5ee7f49b55217837fc738e7f26224e7a3971b6c15b10"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/app-phone.png",
+      "bytes": 773008,
+      "sha256": "9bf19e8d62fb620df7adec3c70f421960d2df57abb9a584d1c004cac6ad8211e"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/site-blog-desktop.png",
+      "bytes": 121910,
+      "sha256": "14dfc517b8fd55f26702fbc870beb0f925f2db5e71ff2aad5f1abeed1e5c930f"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/site-blog-phone.png",
+      "bytes": 446212,
+      "sha256": "4320a9e56f7e0622ec56dd56a3f7fdc1baa69618bd67f2e319e17ff86036279d"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/site-desktop.png",
+      "bytes": 272134,
+      "sha256": "bf0d73263414a48d78c8ce960ea8cdc434086e187b9e3ec4fc5e2372f3994570"
+    },
+    {
+      "path": "product-uploads/play-console-submit/evidence/visuals/site-phone.png",
+      "bytes": 1017856,
+      "sha256": "bc3c78bfc5d3d5f60840035e9ffc13c0811bfea2efeed65fc73f1bda15d5d8d1"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/app-icon.png",
+      "bytes": 32583,
+      "sha256": "857df61ea00e0d763ae9f1baf0d77482073813abf2f9512e068f323e965b3578"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/feature-graphic.png",
+      "bytes": 51681,
+      "sha256": "72ac4d0f8760d626912cff70a5aee50c558dc249ec3cf94d35efb0ed0fdc6828"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/phone-screenshot-1.png",
+      "bytes": 85046,
+      "sha256": "e616658a15c647cebcb00e72b9fe01dd041cd97e1eeb5e430803e17d1c06a97d"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/phone-screenshot-2.png",
+      "bytes": 85491,
+      "sha256": "99d91d1e7a86d2ec8a82fae81f38aced1580288b52477f83b29301e7eb6b9fe3"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/phone-screenshot-3.png",
+      "bytes": 72548,
+      "sha256": "cfab18ecb497ee48afcfbb845b39c37b425c27019baa0f6e32ba15d315261389"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/phone-screenshot-4.png",
+      "bytes": 72193,
+      "sha256": "c29becb5dfcdea5262248c7c64cdc7675ef48c953e11f47a4520ec5334b90811"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-10/screenshot-1.png",
+      "bytes": 107687,
+      "sha256": "cb0d4200ccc31e7ef9a6e7374d9146392710c5e02bea28c48211521a5fa9e581"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-10/screenshot-2.png",
+      "bytes": 71458,
+      "sha256": "3901d6fd934eea98634516b19d32282ba04818b77fad426822a3c02845d6bf8a"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-10/screenshot-3.png",
+      "bytes": 102994,
+      "sha256": "6d5917f1da4622a3c13752726c1b925b324290aedbaa10e2543a7c0abfb2b2f0"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-10/screenshot-4.png",
+      "bytes": 113809,
+      "sha256": "9353f198ad9c66a10071558313b9109c45ae1625a87405a3db3bba7e620f953e"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-7/screenshot-1.png",
+      "bytes": 78035,
+      "sha256": "2570bdf465a9e318fce70bc1fc122b180cdfbfcf6cd8429ad932082c8d1301bd"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-7/screenshot-2.png",
+      "bytes": 52082,
+      "sha256": "7366c5aac42d72462a3717c7eba83905dfe476ee996d15a2e3c9be0b02cffee8"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-7/screenshot-3.png",
+      "bytes": 74544,
+      "sha256": "53adf4b145e8fd8370c38c9a1e0d9662069818f41b7600067118250ad875ba90"
+    },
+    {
+      "path": "product-uploads/play-console-submit/graphics/tablet-7/screenshot-4.png",
+      "bytes": 82296,
+      "sha256": "e97926ea1d20918c945da44dd33006cf2815575f624bf4746b33b03f3d68a5ca"
+    },
+    {
+      "path": "product-uploads/play-console-submit/manifest.json",
+      "bytes": 11724,
+      "sha256": "cbeb0e7e5fcda6b82e5b03f72ad3163a36a1c28a145eaa118a863e18b46f32a5"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/ads-declaration-packet.md",
+      "bytes": 1449,
+      "sha256": "a388af808b9d4ca70e09ce696dd2da8d02d953a151ca91b5ea730fd270204aa7"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/app-access-packet.md",
+      "bytes": 1757,
+      "sha256": "7e562c4c197e917bbb92dfcca5552eaf17c981dd28ef890169e2603b3dae5745"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/app-content-packet.md",
+      "bytes": 2564,
+      "sha256": "381813827b039cd95295494f194048ea91b141d7b310bdb0788dfde5f5cc097c"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/content-rating-packet.md",
+      "bytes": 2210,
+      "sha256": "ff81dddccd002649147a592def09f019f47989b8a1909c3cb0601cbc70779897"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/data-safety-packet.md",
+      "bytes": 2353,
+      "sha256": "fb77cfc2784fdb9e7c633a7becbff6c6814cc321a3e5377a6bd60354f95d6e81"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/field-map.json",
+      "bytes": 17357,
+      "sha256": "6b6ba9b54f54ebfb5a0ab78188555d8bb6f751c52d55ccef345734373fe82e5c"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/field-map.md",
+      "bytes": 12563,
+      "sha256": "1867162db1cc32ddc8c97ed444744557268b1d09523c86488f6f84fd036df695"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/health-declaration-packet.md",
+      "bytes": 3185,
+      "sha256": "461c647d0f551f0b239f7d2cdff36c2c1102e0d8b0dedeb339bd4c067e7b350d"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/release-candidate-packet.md",
+      "bytes": 2655,
+      "sha256": "7dd503c16e36108db8a8ce1bc1f4f5a86d8d35a7a60658ada5e44f20ebbdd25b"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/target-audience-packet.md",
+      "bytes": 2082,
+      "sha256": "61fabf291c28e15edf3bc88edfb392454edfca916d6629eee76f6a0e8d0146d2"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/testing-rollout-packet.md",
+      "bytes": 3409,
+      "sha256": "011bb8c2e05e5b1852e13c21f3ace2c2962d28c0bb635dcb1664fadaa9be7a13"
+    },
+    {
+      "path": "product-uploads/play-console-submit/play-console/upload-packet.md",
+      "bytes": 8477,
+      "sha256": "723fe8d2178988bbc0251a8d2a2e518a7c141e02c00e145a727914db7d8e611d"
+    },
+    {
+      "path": "product-uploads/play-console-submit/README.md",
+      "bytes": 1403,
+      "sha256": "ecf49bd88e79f9eb17b6b18e3b02e9d3b23bdbda38c3de82f0b6ff0cfb29992c"
+    },
+    {
+      "path": "product-uploads/play-console-submit/store-listing/listing.json",
+      "bytes": 7225,
+      "sha256": "1801a680cf4a971ad0fd58d2b5fb231103b1fdba1e19dd052479cd6ccec7cbbb"
+    },
+    {
+      "path": "product-uploads/play-console-submit/store-listing/release-notes.txt",
+      "bytes": 211,
+      "sha256": "6571eb76d8677c6a373b6753ec18b7c4ae357416628513115f71f87b6e481660"
+    },
+    {
+      "path": "product-uploads/play-console-submit/visual-review.html",
+      "bytes": 8745,
+      "sha256": "6930a132fed2695efdea4c88588b4d8896331827f9cc10a05548addc387ff6fa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19957,
+      "sha256": "177dde1c95e963262012dad5e29c011835c25aa6401e43eba156679a6983dc77"
+    },
+    {
+      "path": "scripts/android-local-release.js",
+      "bytes": 3983,
+      "sha256": "eb261a8f2099135ed0e6af50ee23c65bd39f7aef19e50d45ddce53481b8712db"
+    },
+    {
+      "path": "scripts/attach-cloudflare-pages-domains.js",
+      "bytes": 4816,
+      "sha256": "0b29baa663643b0a1fbf79550c716fa4d3c2e936cd2b5bea0381e1c9e0d83016"
+    },
+    {
+      "path": "scripts/build-aab.js",
+      "bytes": 4637,
+      "sha256": "aa006af1895cb81a7d17a33150ef37721236edd96fa5103e1470f613423ab749"
+    },
+    {
+      "path": "scripts/check-public-links.js",
+      "bytes": 759,
+      "sha256": "64d21a8380f0349bbfd9145c0724469ce299456943edcefdfd68d9a368be368a"
+    },
+    {
+      "path": "scripts/check-public-safety.js",
+      "bytes": 68732,
+      "sha256": "e56375d7eb3e6f3f3af8b3c4c90cfbfc1987f9370bd15241af405f83eb442b5c"
+    },
+    {
+      "path": "scripts/copy-site-static-pages.js",
+      "bytes": 1125,
+      "sha256": "b7793bf2189b1e3ab44507fada4aad591d094fbb939c9bb2098f190662e2cc21"
+    },
+    {
+      "path": "scripts/create-android-upload-keystore.ps1",
+      "bytes": 4465,
+      "sha256": "e8cf60eab536940bcce3354f5fe7f24032d1ace3490fd73f8f86cec65c21bca4"
+    },
+    {
+      "path": "scripts/create-android-upload-keystore.sh",
+      "bytes": 2275,
+      "sha256": "da4f09c2e4d2c0f6e62c240e5af11534b96db38836fb5d0ae2c334dcc727e3a4"
+    },
+    {
+      "path": "scripts/deploy-site-local-safe.ps1",
+      "bytes": 2019,
+      "sha256": "5a9ef4cf62500a015b635e3cbf5d61dca36973e5a61173e4ee5886ee28481bb6"
+    },
+    {
+      "path": "scripts/export-play-assets.js",
+      "bytes": 3064,
+      "sha256": "431ad9d7e7f72ad8ac8181ff3de0e349e90387c708cca00aa7a14aae914df470"
+    },
+    {
+      "path": "scripts/generate-android-permissions-report.js",
+      "bytes": 4524,
+      "sha256": "b579efc24d2fff6c549666e91bb5ec672072eaacf4149e2d716e051ccdec5e10"
+    },
+    {
+      "path": "scripts/generate-android-signing-handoff-packet.js",
+      "bytes": 4318,
+      "sha256": "eabf4b7c30a3530f453ca9cbfcc0fc64193e3324226e23fd9992e3cd008c2ab2"
+    },
+    {
+      "path": "scripts/generate-cloudflare-pages-deployment-report.js",
+      "bytes": 6789,
+      "sha256": "a61d092043cc389340d160b77bd0b4227f2038f4145dbcc83fbe5a48f958f227"
+    },
+    {
+      "path": "scripts/generate-custom-domain-dns-diagnostics.js",
+      "bytes": 3617,
+      "sha256": "580368c36de4e76abc85ca862d7d2d8e353286cc6aa1be264fc0593763532098"
+    },
+    {
+      "path": "scripts/generate-emulator-qa-report.js",
+      "bytes": 6615,
+      "sha256": "799f76dbfac15c417180426921582555197087ce8fc06b5a540f00696822ceea"
+    },
+    {
+      "path": "scripts/generate-final-release-audit.js",
+      "bytes": 65340,
+      "sha256": "042b40358f2d47455ab6877bc0c0c369ec44ee13af5ba71dc567c0be2da927b1"
+    },
+    {
+      "path": "scripts/generate-git-publication-preflight.js",
+      "bytes": 4801,
+      "sha256": "7865bb2072afc58b78eb446ba1aa07f3e5d7517d05de361004bcf7f92401d627"
+    },
+    {
+      "path": "scripts/generate-github-publication-packet.js",
+      "bytes": 12912,
+      "sha256": "6296560a70df5e591059a9e6a08b25f0032ead13f4b342b4b3648eb06abf86c9"
+    },
+    {
+      "path": "scripts/generate-github-repository-bundles.js",
+      "bytes": 8432,
+      "sha256": "f73b06162a72cbf439ef7d7dae9cac88bc439b80a616f651bf9001422a9908af"
+    },
+    {
+      "path": "scripts/generate-owner-action-packet.js",
+      "bytes": 10965,
+      "sha256": "8937815c5ad078fa3b1b67d8d9b3ec1e66c632074ebf0c77359aa7d95dd84b21"
+    },
+    {
+      "path": "scripts/generate-play-ads-declaration-packet.js",
+      "bytes": 3677,
+      "sha256": "56a6c4520ac54896285110fa8827cd3803f8ef3019e9825356aab10f9d2cd87d"
+    },
+    {
+      "path": "scripts/generate-play-app-access-packet.js",
+      "bytes": 3729,
+      "sha256": "eed921403ab0f4645b012be32c7bbad176b4cda0584632758a0ac47d162fc2f5"
+    },
+    {
+      "path": "scripts/generate-play-app-content-packet.js",
+      "bytes": 5325,
+      "sha256": "4a33edbbaf9e6aef7e618b834fdc0a0a9e0bd718a33b86af7cba72c64e8c94aa"
+    },
+    {
+      "path": "scripts/generate-play-assets.js",
+      "bytes": 20917,
+      "sha256": "57be94d5c8cb11a3799d226b15ccbd534bef388e19137566917a6d9757e164ea"
+    },
+    {
+      "path": "scripts/generate-play-console-field-map.js",
+      "bytes": 7104,
+      "sha256": "5f00ff992d913226068a45f28dae12686888a2740b12ab003f77b63e5d6e803b"
+    },
+    {
+      "path": "scripts/generate-play-console-packet.js",
+      "bytes": 10058,
+      "sha256": "0e2cbf0fac572660d3187a9db650267ee6689243351b2d2f01d3966fdbd4cc2a"
+    },
+    {
+      "path": "scripts/generate-play-console-submit-bundle.js",
+      "bytes": 13435,
+      "sha256": "172ab60dd00924318926b18ae50f0509ea89cef57142c6f632f993d79d4d7cb5"
+    },
+    {
+      "path": "scripts/generate-play-content-rating-packet.js",
+      "bytes": 4587,
+      "sha256": "bda13d8d84ae78619efb8864bad0fd4a377fb3433064079065bee85ea8eab806"
+    },
+    {
+      "path": "scripts/generate-play-data-safety-packet.js",
+      "bytes": 3975,
+      "sha256": "5bc27d2cfd6426104a05ad69195da557b912f08b67ec68480b567145c96caeb5"
+    },
+    {
+      "path": "scripts/generate-play-health-declaration-packet.js",
+      "bytes": 5738,
+      "sha256": "695625657a092e187d4bf7f41e1831af2fdea8d2fb068cc5a70e5f83a0fd7b9b"
+    },
+    {
+      "path": "scripts/generate-play-production-readiness-packet.js",
+      "bytes": 6048,
+      "sha256": "657d234f50550bdbfeeace221d204475b8b4cc8c9da7008396499692a095abd2"
+    },
+    {
+      "path": "scripts/generate-play-release-candidate-packet.js",
+      "bytes": 6230,
+      "sha256": "598f268cb142f07d90d998aac82bfa6ce4a87236192c65236baea25f3759c95c"
+    },
+    {
+      "path": "scripts/generate-play-release-notes.js",
+      "bytes": 997,
+      "sha256": "e5ea33405f79ef37afd5e1ee36995e104df1308904e121010f44341c14ea7876"
+    },
+    {
+      "path": "scripts/generate-play-store-metadata.js",
+      "bytes": 7559,
+      "sha256": "6acf0738609d515086588e1da9f159cc1a856e51042b6d7be1a1226778cee16b"
+    },
+    {
+      "path": "scripts/generate-play-target-audience-packet.js",
+      "bytes": 4338,
+      "sha256": "a2951af5a7be21fe928fffc9ea6ab5434892659853eeb7ca4b1725f13a379212"
+    },
+    {
+      "path": "scripts/generate-play-testing-rollout-packet.js",
+      "bytes": 5227,
+      "sha256": "790ad6fb16502676d4b4456717f475d17046b8c25ac96302eaa28fb63dcd8b60"
+    },
+    {
+      "path": "scripts/generate-play-upload-confirmation.js",
+      "bytes": 5620,
+      "sha256": "6c3a1add207b5f619d236dd0706ff54c1373c9848bb7f2af1929a4c85c18c953"
+    },
+    {
+      "path": "scripts/generate-privacy-parity-report.js",
+      "bytes": 5595,
+      "sha256": "2042f80bd0b525051f3c519c5b600b26d47b510bda1b3194180be03e21c4d462"
+    },
+    {
+      "path": "scripts/generate-public-repository-publication-manifest.js",
+      "bytes": 7943,
+      "sha256": "3ccfd4eb759adeba4ce3f9d6fd4a538ab6fa91a37122733d89a142389b24092a"
+    },
+    {
+      "path": "scripts/generate-release-blocker-report.js",
+      "bytes": 7988,
+      "sha256": "91e002c9637ca145627b62b269f78890d7bd4f47f762a6e982b62e9aec377f2a"
+    },
+    {
+      "path": "scripts/generate-release-completion-matrix.js",
+      "bytes": 5758,
+      "sha256": "f64bdf361415ac785eb961ac1913da879cfa82dcbed56001dca455fcf4d43ed7"
+    },
+    {
+      "path": "scripts/generate-release-evidence-index.js",
+      "bytes": 15448,
+      "sha256": "47dd710f1dcecbd0532750cfdf3d23bf9835790d8922bbfd0ff4df6db462013d"
+    },
+    {
+      "path": "scripts/generate-release-status.js",
+      "bytes": 23200,
+      "sha256": "29bf5959f0ce26699d77e623a411088b11f46bf86e6012cc89424da59b39a958"
+    },
+    {
+      "path": "scripts/generate-runtime-qa-report.js",
+      "bytes": 7328,
+      "sha256": "ef63dfaec44f5f4606942de19d5fde59cdd3d08e6a6e35edcd8f1c752705d4a6"
+    },
+    {
+      "path": "scripts/generate-signed-runtime-qa-preflight.js",
+      "bytes": 10895,
+      "sha256": "5f4f37ac1e3075ab9895b465cbdf7a12ea11581e8c8f4d49f3d64f3ce4bddaba"
+    },
+    {
+      "path": "scripts/generate-visual-evidence-manifest.js",
+      "bytes": 8708,
+      "sha256": "91219802eb60d11f28d2d4abfb84d6f5479ab2af4044237999034db836d56d7c"
+    },
+    {
+      "path": "scripts/generate-workflow-provenance-report.js",
+      "bytes": 5299,
+      "sha256": "af54ad4f6b116b4b653df714df3447f541387b8930e8772a89409918cb997f40"
+    },
+    {
+      "path": "scripts/owner-release-dry-run.js",
+      "bytes": 3606,
+      "sha256": "82375262e5797b08394ce085dfbbac1435bf1ef6577fddacc9ea8e3de501cb53"
+    },
+    {
+      "path": "scripts/package-github-repository-archives.ps1",
+      "bytes": 2655,
+      "sha256": "c2e7c3d4b066e91e192bb45b9216dcd512ec5ef8c1df0b37ce35897658f1f872"
+    },
+    {
+      "path": "scripts/play-store-complete-readiness.js",
+      "bytes": 3150,
+      "sha256": "0df75b48c2c81adab42cd2dd7c007f0dd77a5b044c73406c3f5f9d8e7854bd08"
+    },
+    {
+      "path": "scripts/play-store-preflight.js",
+      "bytes": 10759,
+      "sha256": "78e3c6e3e1a0f3f078a7b006e553897b194d99f5315eba930bf11a6b3d40f55f"
+    },
+    {
+      "path": "scripts/play-store-private-readiness.js",
+      "bytes": 3436,
+      "sha256": "8e787b50a10d0a241865cbbed372ccaf0aafb45733f232be7f3ab50ff58a9658"
+    },
+    {
+      "path": "scripts/play-store-public-readiness.js",
+      "bytes": 3076,
+      "sha256": "f878ffd3244855603bf7f56e98fefd94e4193efd2ed7eb7843474685d349a4cf"
+    },
+    {
+      "path": "scripts/print-android-signing-help.ps1",
+      "bytes": 2332,
+      "sha256": "76292fc2809a1fc3644d7ef235a4f47217e3dbb3aae2ece42c58a2159fb8f3a0"
+    },
+    {
+      "path": "scripts/print-android-tooling-check.ps1",
+      "bytes": 2194,
+      "sha256": "2d898f28727ad625642e57c8f68fd79eef58c37d6cb56bff1356bb97bf66d431"
+    },
+    {
+      "path": "scripts/print-cloudflare-domain-attach-help.ps1",
+      "bytes": 2568,
+      "sha256": "92e2bfbac0309ca6f7480ca2afab2415ea539c12670e8a70f4495e72e20f2bf5"
+    },
+    {
+      "path": "scripts/print-github-cli-help.ps1",
+      "bytes": 2486,
+      "sha256": "f1daf1fe44652a0163db595f050bb3d1c6b2209a59ae5b0494890a59ab347e3d"
+    },
+    {
+      "path": "scripts/print-github-publication-help.ps1",
+      "bytes": 4350,
+      "sha256": "52052d52cc1fedfbde34b1a2d491589bc107e1b7dbf918fd67672a63868ba593"
+    },
+    {
+      "path": "scripts/print-next-release-steps.js",
+      "bytes": 29899,
+      "sha256": "95b175af7e7b37d194900c000ecc4edfa2a2bb8a595aecd3470a5f5265fa91a2"
+    },
+    {
+      "path": "scripts/print-owner-support-now.js",
+      "bytes": 7241,
+      "sha256": "44ca2105fba4a530aa5e077e5f36d60bab21f6309c96196dae52bfb1ca76b454"
+    },
+    {
+      "path": "scripts/print-owner-tool-env.ps1",
+      "bytes": 3325,
+      "sha256": "2bc582f6599e20008da9c7817d085cd92330e51b547628d6db8a92e6b47dd663"
+    },
+    {
+      "path": "scripts/print-play-upload-help.ps1",
+      "bytes": 2766,
+      "sha256": "0557e08d953af32d0a3e6caa492b5602fa91067378f30fd3a429617698a59bb8"
+    },
+    {
+      "path": "scripts/print-runtime-qa-help.ps1",
+      "bytes": 2468,
+      "sha256": "723c6ed746f5beb90cf0ecb9435b7a8701d857ccdf11c3ff0cf5143e692aa108"
+    },
+    {
+      "path": "scripts/print-signed-aab-evidence.js",
+      "bytes": 5151,
+      "sha256": "c303fbfbd179586db333aa3bb1c2bb36f6c84a476694912f19dc5068ba51856d"
+    },
+    {
+      "path": "scripts/print-unsigned-aab-evidence.js",
+      "bytes": 2259,
+      "sha256": "18a4bec270d686051563b2055204deb15a1d5bcecafc3d495669187bf236f559"
+    },
+    {
+      "path": "scripts/print-wrangler-help.ps1",
+      "bytes": 2771,
+      "sha256": "6176e2d643caa11a004d47075a61177613624fac761b07438511e3f3ace08032"
+    },
+    {
+      "path": "scripts/public-release-readiness.js",
+      "bytes": 6933,
+      "sha256": "b8321186eabb1223cbea0ee5c72204d45a971616f801065821d086e08210d866"
+    },
+    {
+      "path": "scripts/publish-github-repository-bundles.ps1",
+      "bytes": 5052,
+      "sha256": "8f0652e5205c88994c61ab12006e7e50f0d431edd3d9b29c296b68f0dd8732ec"
+    },
+    {
+      "path": "scripts/run-android-private-release.ps1",
+      "bytes": 2487,
+      "sha256": "2009b1f868357bb1d3d07ddf46d5adef94eb0a640d3e9529d6807848d7bb2d6c"
+    },
+    {
+      "path": "scripts/run-visual-tests.js",
+      "bytes": 7996,
+      "sha256": "6e062e98a304342b6af822314d9e2b87d63728424853b407ac4f72aa5ab21c21"
+    },
+    {
+      "path": "scripts/serve-static-preview.cjs",
+      "bytes": 1546,
+      "sha256": "2b46dbe5120f4777e50e88dc464dbedb7babe2372069d4175d8087fdc6dc4364"
+    },
+    {
+      "path": "scripts/set-public-links.js",
+      "bytes": 5324,
+      "sha256": "fc6321cd830727442c9b33aedf901931c25a7269c6e909fbcbc0a7f6f7173a91"
+    },
+    {
+      "path": "scripts/setup-cf-secrets.ps1",
+      "bytes": 1245,
+      "sha256": "7b2a47b17305de1a9fe3faa5eb51e7db8659dd48a5bcdd90378f02cae825a692"
+    },
+    {
+      "path": "scripts/setup-cf-secrets.sh",
+      "bytes": 991,
+      "sha256": "3681c994ecf716c715209e95b179a466a104b325ed745197708e7f93104bc62d"
+    },
+    {
+      "path": "scripts/setup-github-deployment-secrets.ps1",
+      "bytes": 2681,
+      "sha256": "92522a506fbaed29331951ca6e2438bd5d20808389dd4188c2a069cbdb5a0aa6"
+    },
+    {
+      "path": "scripts/sign-aab.js",
+      "bytes": 3193,
+      "sha256": "01c39c99c0159f8ee6aa5686e651b93925d82cca0249cd5dec66c2da9a7f74cf"
+    },
+    {
+      "path": "scripts/sync-signed-aab-evidence.js",
+      "bytes": 3376,
+      "sha256": "48e986b548b08fe3667ee8a317aefac55eac3491edd8ebca8056e1e17b93e291"
+    },
+    {
+      "path": "scripts/validate-android-permissions-report.js",
+      "bytes": 4019,
+      "sha256": "3d1ef9a13ef40069a932b534e30176b13ae6f06026d16f6860d5490e629145d8"
+    },
+    {
+      "path": "scripts/validate-android-release.js",
+      "bytes": 9844,
+      "sha256": "f0b69ba5cb204a1798f3d3964e3260e5511ca744c586eb1058df67ecdb35dd41"
+    },
+    {
+      "path": "scripts/validate-android-signing-handoff-packet.js",
+      "bytes": 3816,
+      "sha256": "3e37c1abc410cffc96bdee6ef4297652c793bc57377606e0bc32812295e2e8e7"
+    },
+    {
+      "path": "scripts/validate-android-signing-helper.js",
+      "bytes": 2500,
+      "sha256": "876a75306fdbaf62ba05fe9ec9b44c3c43580c79d29a6557372eeb8813c908c2"
+    },
+    {
+      "path": "scripts/validate-android-tooling-helper.js",
+      "bytes": 2215,
+      "sha256": "7e1b8beee4d74da13f05dc4031b5205eca7eebc29d2740d91731372eb698b545"
+    },
+    {
+      "path": "scripts/validate-cloudflare-domain-api-helper.js",
+      "bytes": 1933,
+      "sha256": "cfc134899a09dd67267708fb38a9f700ce008331d7e01a3aff6046fd3e116989"
+    },
+    {
+      "path": "scripts/validate-cloudflare-domain-attach-helper.js",
+      "bytes": 1940,
+      "sha256": "55138e3a31b380731fea1bececde71e248518cd2cdc5c79e9a574465af7e4e7e"
+    },
+    {
+      "path": "scripts/validate-cloudflare-pages-deployment-report.js",
+      "bytes": 4102,
+      "sha256": "29faaa5d80a3e0587b6beea02ba7e7e09d89d690eb0293a8175dc6125fc7607c"
+    },
+    {
+      "path": "scripts/validate-cloudflare-pages-domain-attachment.js",
+      "bytes": 2915,
+      "sha256": "1cbbb0dc3ccf5fd61f0bb61f9cdd7ccf23c979fe3d7d8acf9f2878b35d451c8a"
+    },
+    {
+      "path": "scripts/validate-cloudflare-readiness.js",
+      "bytes": 6861,
+      "sha256": "cc2341579eaaa75a85205518d9cfea911ec786ee1c7ed771cb5452084b60fd2e"
+    },
+    {
+      "path": "scripts/validate-custom-domain-dns-diagnostics.js",
+      "bytes": 2814,
+      "sha256": "5211f3a5a5993edb3613a3c00722f7c170ed468fb74c7df60f4de28842f9d279"
+    },
+    {
+      "path": "scripts/validate-custom-domain-readiness.js",
+      "bytes": 5370,
+      "sha256": "45b0787bd755ace6fdf039f403e152226a4e38707c05194e39141c8f734c62c1"
+    },
+    {
+      "path": "scripts/validate-final-release-audit.js",
+      "bytes": 11326,
+      "sha256": "74ac4d1d1074ff25cc68bd184d74481ec03ec43a90965b276713e5ff9466ac72"
+    },
+    {
+      "path": "scripts/validate-function-coverage.js",
+      "bytes": 3192,
+      "sha256": "e67b74a3065375b163f90dcddae59f43c5f9e160c8e33d866f7d83547896b5b8"
+    },
+    {
+      "path": "scripts/validate-git-publication-preflight.js",
+      "bytes": 2642,
+      "sha256": "d93573fb5ae1b1cbce3997f297c5cd4b8cbf6e536d16c4c15f03551298f6427d"
+    },
+    {
+      "path": "scripts/validate-github-bundle-publisher.js",
+      "bytes": 3208,
+      "sha256": "4fd2601e76d2a97e8d1cb00fe4a32cb8a46f1b5fd773f805efcac40204c42aa2"
+    },
+    {
+      "path": "scripts/validate-github-publication-helper.js",
+      "bytes": 2756,
+      "sha256": "4ca182911dfe3e321ec7c2447ff063790acdb81f685118135406675c6d726a30"
+    },
+    {
+      "path": "scripts/validate-github-publication-packet.js",
+      "bytes": 5965,
+      "sha256": "cefe27c679a13c8b8a0cdc7c336f6c4106c21d5dae8eb01fb87264a6e1579bd1"
+    },
+    {
+      "path": "scripts/validate-github-repository-archives.js",
+      "bytes": 7242,
+      "sha256": "7f9ca3afc499d588c7a787bbf4436f3a2292ab82c6c86c252bb7ce151efa9e05"
+    },
+    {
+      "path": "scripts/validate-github-repository-bundles.js",
+      "bytes": 8978,
+      "sha256": "197d501d33f9bead7cae9215abaff3aeabf28eb6a3aefbd6e08ce3032ee36baf"
+    },
+    {
+      "path": "scripts/validate-github-workflows.js",
+      "bytes": 3429,
+      "sha256": "ca78d17b6e1e73707940bd7495282516a787c188fb2db3b25c9d1686cc18bfaa"
+    },
+    {
+      "path": "scripts/validate-license-policy.js",
+      "bytes": 3629,
+      "sha256": "a02ef3f4d019651515ab22c982a4dafc3ce082d517647d712c77b1d3e628f6a2"
+    },
+    {
+      "path": "scripts/validate-live-custom-domain.js",
+      "bytes": 10664,
+      "sha256": "41f748c23e65368fbaa2024256f86f1fb3a9709c2db861c5630bea97edc15059"
+    },
+    {
+      "path": "scripts/validate-live-github-actions.js",
+      "bytes": 6270,
+      "sha256": "6b38eb27042d4ec16201fcc9bcc4d1c15d72fdd48dd89eda251211a18d9e4b98"
+    },
+    {
+      "path": "scripts/validate-live-github-publication.js",
+      "bytes": 25546,
+      "sha256": "95b3e5d812aed904e485d9e5123f2b382d8deb2b46b5b09d86dc0349f4e21698"
+    },
+    {
+      "path": "scripts/validate-live-site.js",
+      "bytes": 12607,
+      "sha256": "a187bb7049c7eb252524e537aa18d2f089f112ffa85152cdcc0b45319278a002"
+    },
+    {
+      "path": "scripts/validate-local-only-dependencies.js",
+      "bytes": 1365,
+      "sha256": "8dc8db34ab51d7778b815482492b539c43cccb8756eef69b678180d7fb9657a5"
+    },
+    {
+      "path": "scripts/validate-local-only-runtime.js",
+      "bytes": 4796,
+      "sha256": "601a2fd8a722e10c03bbdb46a355068b70319b4ae83f09ec14b2b3f95debe622"
+    },
+    {
+      "path": "scripts/validate-owner-action-packet.js",
+      "bytes": 4518,
+      "sha256": "95ef8f110c26e9ad54bc0f4e8337713facc8db6de31a82117bca48de23964025"
+    },
+    {
+      "path": "scripts/validate-owner-release-tools.js",
+      "bytes": 8846,
+      "sha256": "19b65bc01b18667d6aa20286f08be8218eb5f6d3daa7eecce127774a6f17c641"
+    },
+    {
+      "path": "scripts/validate-owner-support-now.js",
+      "bytes": 2782,
+      "sha256": "e24577ad7364f82e26f08e49c8b8c4c0f73c848aa2e49a5871e8684e5c76072f"
+    },
+    {
+      "path": "scripts/validate-owner-tooling-docs.js",
+      "bytes": 2580,
+      "sha256": "da61e273ae92d3ff4a9a2e240d8228b5b7be5cc2ec10cdc44306adff4e057773"
+    },
+    {
+      "path": "scripts/validate-play-ads-declaration-packet.js",
+      "bytes": 5060,
+      "sha256": "2d29ea699ba5c6faa77aea9165d6be1a4d6e21762e357a9c55f5fa48a4e38549"
+    },
+    {
+      "path": "scripts/validate-play-app-access-packet.js",
+      "bytes": 4190,
+      "sha256": "46e01bbb3d92d07c7a7722273701167b2b6e6b3f5a477b4b18c0afc6cca34f1c"
+    },
+    {
+      "path": "scripts/validate-play-app-content-packet.js",
+      "bytes": 4259,
+      "sha256": "97f72912f07b0a57f6473de3323ca663b418ea80d7182ed01572fd07ebd84774"
+    },
+    {
+      "path": "scripts/validate-play-assets.js",
+      "bytes": 5158,
+      "sha256": "6b76f1b7273b1ba204becb158fde74a55875ca8d9fc5f43f15bff1e8e8af1dda"
+    },
+    {
+      "path": "scripts/validate-play-console-field-map.js",
+      "bytes": 4092,
+      "sha256": "702825e8a4f76bd4eb39126aac4b0697bc79b2398484b921594e361a8c7e3144"
+    },
+    {
+      "path": "scripts/validate-play-console-packet.js",
+      "bytes": 4866,
+      "sha256": "298862541c056515c464d188527b3035b57afe32b58dafe995af97c7bc854543"
+    },
+    {
+      "path": "scripts/validate-play-console-submit-bundle.js",
+      "bytes": 10346,
+      "sha256": "e1648d794b76a28cd9b027c29b76ba41a3c03114b49331353bf8618311e35dd0"
+    },
+    {
+      "path": "scripts/validate-play-content-rating-packet.js",
+      "bytes": 5332,
+      "sha256": "709338eca2fdefd1bf43b0bb6203682a254e966bc51c7cab9394ab2afdc2b78f"
+    },
+    {
+      "path": "scripts/validate-play-data-safety-packet.js",
+      "bytes": 2315,
+      "sha256": "d238cedb548b99a132f34dcca95ed44297df355eb6a0fd623d02f0d6cc174c22"
+    },
+    {
+      "path": "scripts/validate-play-health-declaration-packet.js",
+      "bytes": 6570,
+      "sha256": "2b149c5853d51ce3b151d214bafef1e8b9d7cc6426d06ed38794bc733fc31198"
+    },
+    {
+      "path": "scripts/validate-play-production-readiness-packet.js",
+      "bytes": 5005,
+      "sha256": "50caf4c311d28da70dd82ceca2fcad6e5f30bec9556ec877ff08b0b57c2b7663"
+    },
+    {
+      "path": "scripts/validate-play-release-candidate-packet.js",
+      "bytes": 5992,
+      "sha256": "cf55fb888356d06b070b120b5eb7b269f77494371d6000bc6c1f44325fb648a9"
+    },
+    {
+      "path": "scripts/validate-play-release-notes.js",
+      "bytes": 1369,
+      "sha256": "c1c0ebb58b3126eea7efb50858fd9f18c433ccf7407c660a9f8b06354ed852b5"
+    },
+    {
+      "path": "scripts/validate-play-store-metadata.js",
+      "bytes": 8454,
+      "sha256": "c6e9d8a88e1fd09cfb45a22aa687df8cfe107017be0f754869f44e8ea782cedc"
+    },
+    {
+      "path": "scripts/validate-play-target-audience-packet.js",
+      "bytes": 4899,
+      "sha256": "348b72a95ef2a1f0f0d4f8f94316d9d248d7432c4b8bab29bfb18e52061e8d35"
+    },
+    {
+      "path": "scripts/validate-play-testing-rollout-packet.js",
+      "bytes": 4508,
+      "sha256": "3c3aa689090bdfa5327ea11579cf92fe46766eed2d52f0a8f8c9c79a583ed2be"
+    },
+    {
+      "path": "scripts/validate-play-upload-confirmation.js",
+      "bytes": 10801,
+      "sha256": "84eac3728f9a9bc7753d3628ab3028f76dfb0c83a25884bb906e80969e73c177"
+    },
+    {
+      "path": "scripts/validate-play-upload-helper.js",
+      "bytes": 2622,
+      "sha256": "8fdde1e829afc70884675caef7af1b87d58cc6f22ee561facd21f552fcfe2ca0"
+    },
+    {
+      "path": "scripts/validate-privacy-parity-report.js",
+      "bytes": 3782,
+      "sha256": "dfd4cc13fce198f83d635de97e745dc5815be5c1df89677eeeef3752a8c72f88"
+    },
+    {
+      "path": "scripts/validate-proof-product-repository.js",
+      "bytes": 10983,
+      "sha256": "4c028ec8cb00403e70ded37e9e0a6e76886892f851ee2b25ba5841f05f1522ee"
+    },
+    {
+      "path": "scripts/validate-public-artifact-policy.js",
+      "bytes": 3905,
+      "sha256": "98b196457e0c14e2142c26577022132191a30e7358da32ca6cccac81378f382d"
+    },
+    {
+      "path": "scripts/validate-public-push-readiness.js",
+      "bytes": 21704,
+      "sha256": "1a872db4125144e9903f1ef3e71bd9bf422e8e31a88ffee8057b9b816c9da56d"
+    },
+    {
+      "path": "scripts/validate-public-repository-publication-manifest.js",
+      "bytes": 6187,
+      "sha256": "7af6bb5b5d35ff3ef1dbf3c2ec9729b2058614ca0e0e7daa4a2596d69e4cbf50"
+    },
+    {
+      "path": "scripts/validate-release-artifact-hygiene.js",
+      "bytes": 3737,
+      "sha256": "a8817a2780330234f66d9fbd788f194e29a0710bc60c68bb9dfcb9e08480b51c"
+    },
+    {
+      "path": "scripts/validate-release-blocker-report.js",
+      "bytes": 4883,
+      "sha256": "417a1053c7f6cc69f7c6a5d1e7c89f70709943edac33b19f01c382ed3a52df1f"
+    },
+    {
+      "path": "scripts/validate-release-completion-matrix.js",
+      "bytes": 3028,
+      "sha256": "3ff855bfed62ca8331c17e9368a2477d0f14cefec56a7985bcc5fcdad5ceeb0a"
+    },
+    {
+      "path": "scripts/validate-release-evidence-docs.js",
+      "bytes": 7056,
+      "sha256": "397b75ed04ee551787722322121108a38bb63f2e2716a35b79f446ee8cab20e9"
+    },
+    {
+      "path": "scripts/validate-release-evidence-index.js",
+      "bytes": 6199,
+      "sha256": "8343dce5769c94cf40dcf58a14c7e86b9aeed830f9726cb36eefda79ac27f7f2"
+    },
+    {
+      "path": "scripts/validate-release-handoff.js",
+      "bytes": 9578,
+      "sha256": "23aa19097ee8182e2b18cee04ddfa68af88db533fcfa1c1c3f3e88255da8f2af"
+    },
+    {
+      "path": "scripts/validate-release-status.js",
+      "bytes": 8888,
+      "sha256": "51ee04a14cff31b8ba9346d2414202a7d24144f8d748eb4b46844742e2759373"
+    },
+    {
+      "path": "scripts/validate-runtime-qa-helper.js",
+      "bytes": 2690,
+      "sha256": "3d22f0eb071fe4353d0b1d0537e26cbeb63a5c457d39d67afbcb04f762319813"
+    },
+    {
+      "path": "scripts/validate-runtime-qa-report.js",
+      "bytes": 5364,
+      "sha256": "bf25d2191ac8fb2826534f5825151e1b341f1a7c4d637b3f9fabf240317aa817"
+    },
+    {
+      "path": "scripts/validate-signed-runtime-qa-preflight.js",
+      "bytes": 3613,
+      "sha256": "2c8a8768dab89490eee49f5ca9a8b477f06a1510f34ae9d529b5d0f68db39805"
+    },
+    {
+      "path": "scripts/validate-signing-readiness.js",
+      "bytes": 5116,
+      "sha256": "44ed41c6af2f1321e414e407e05b054ef20624829bf99fea645823ba8068a1ac"
+    },
+    {
+      "path": "scripts/validate-site-dist.js",
+      "bytes": 12011,
+      "sha256": "ebda78d066ace98b9b1057d71f98a1243748964240feb5e6ffbcc54f8cb38b5c"
+    },
+    {
+      "path": "scripts/validate-visual-evidence-manifest.js",
+      "bytes": 7956,
+      "sha256": "d262076a72519e9423cb92dec4063ba6b2c39c90b0533bc446ceaa6f3f0b8730"
+    },
+    {
+      "path": "scripts/validate-visual-test-report.js",
+      "bytes": 2801,
+      "sha256": "652d3c29044e41d496949c2f10b683eec07709232c14f51de59ddd690670623b"
+    },
+    {
+      "path": "scripts/validate-workflow-provenance-report.js",
+      "bytes": 3786,
+      "sha256": "8210da3593605495d86261a75ed2b2f0e5f501032ba1fbe545ce7febac29bd4c"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 2044,
+      "sha256": "a851ead0a438e4260fdd693d46bede2d44b8166fb275d92724e6f8a8efa7c5da"
+    },
+    {
+      "path": "site/blog/health-app-data-sharing.html",
+      "bytes": 3427,
+      "sha256": "1a066073d37f12b9793e555dc826ea92e07e8b6b154659cb636e91bb0d177b9f"
+    },
+    {
+      "path": "site/blog/index.html",
+      "bytes": 3705,
+      "sha256": "b846db6a9641a8cfc923b78461334c8a93f3d323c6fc43de8b4b495849479eca"
+    },
+    {
+      "path": "site/blog/local-only-period-tracker.html",
+      "bytes": 3031,
+      "sha256": "3bcd3dad8c57d05cf79fe665061d2318fa069499e3bef1037c2c633cb6c8e5c1"
+    },
+    {
+      "path": "site/blog/no-account-period-tracker.html",
+      "bytes": 3509,
+      "sha256": "5532cfe9f8188551ba2c751051b818055a8e0301ea6f6a1357e54541c88f1db3"
+    },
+    {
+      "path": "site/blog/period-tracker-privacy-questions.html",
+      "bytes": 3308,
+      "sha256": "2b9d859e73b0638ed7989c5fb95094242ee86dd47a6f5c346b9df795229b067b"
+    },
+    {
+      "path": "site/blog/period-tracker-without-internet.html",
+      "bytes": 3685,
+      "sha256": "46b32f25c685a4fb2edbed0e4884a3f1a1e13cf3ae8e1ea60ff0fa0a27a0ff95"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 8575,
+      "sha256": "450ac70f54700dab80388b22a568836531bf0319dc003aed468f8695e41a9c28"
+    },
+    {
+      "path": "site/license.html",
+      "bytes": 2332,
+      "sha256": "b5b82310712bb78e7826323e4a11badb08609bbe957556b9a11af3623b9123cd"
+    },
+    {
+      "path": "site/llms.txt",
+      "bytes": 2070,
+      "sha256": "46c2f02c42b758ff584e6178802e511041d936dbc56418afa5765345d85aa7e6"
+    },
+    {
+      "path": "site/logo.svg",
+      "bytes": 1409,
+      "sha256": "f8eb3bdfc1375cbef0ff3f73ce0c657b556f4ff7c5f22e5a545a2dbf15c0b3d9"
+    },
+    {
+      "path": "site/open-cycle.html",
+      "bytes": 955,
+      "sha256": "c7eabf2d2c414610b544f342c86a0ac76b6a8604cff466c02795c37578d8144b"
+    },
+    {
+      "path": "site/package.json",
+      "bytes": 330,
+      "sha256": "ce8aa1530a0b058cf848586f0e54f5c173cc90a76b58a52b10ab10a5406605f4"
+    },
+    {
+      "path": "site/privacy.html",
+      "bytes": 2743,
+      "sha256": "46f3b9d5d43227c724b2e621b70f3a19bc694d3aabf0bef95aa3eabc83fbf54b"
+    },
+    {
+      "path": "site/public/_headers",
+      "bytes": 182,
+      "sha256": "917bdb60600d5e58464a54b6717fe3e86a1d59d87d8a5339a6241048c202eb94"
+    },
+    {
+      "path": "site/public/_redirects",
+      "bytes": 344,
+      "sha256": "b4150d86fc38ac7c62840a283d55ddf8859325ea8ee6fcc7cd6199ac67de4133"
+    },
+    {
+      "path": "site/robots.txt",
+      "bytes": 68,
+      "sha256": "3aba01f600c8fa3e1169f23c0e69b07d1c8a49a1e280d196991c6c6987cbb3d4"
+    },
+    {
+      "path": "site/script.js",
+      "bytes": 2398,
+      "sha256": "275928ccc1e5f07c55b6452d543d2568d3d30750e7adb329b97d19005e40cb7b"
+    },
+    {
+      "path": "site/sitemap.xml",
+      "bytes": 1135,
+      "sha256": "5bde47d0d7faea6b5e81e751d2f20d31cfbe3e965ad450a0be911995b8843f59"
+    },
+    {
+      "path": "site/styles.css",
+      "bytes": 6590,
+      "sha256": "35b8aa2e9b312a6abb36efc9451840a71ff95e8a4233db9e86d073a4b049f35e"
+    },
+    {
+      "path": "site/upgrade.html",
+      "bytes": 955,
+      "sha256": "c7eabf2d2c414610b544f342c86a0ac76b6a8604cff466c02795c37578d8144b"
+    },
+    {
+      "path": "site/upgrade.js",
+      "bytes": 656,
+      "sha256": "4d29d5adbae1843bfd4724c52fcc7995be3cc1f426945f030e4d56379623a3ff"
+    },
+    {
+      "path": "store-assets/play/app-icon.png",
+      "bytes": 32583,
+      "sha256": "857df61ea00e0d763ae9f1baf0d77482073813abf2f9512e068f323e965b3578"
+    },
+    {
+      "path": "store-assets/play/app-icon.svg",
+      "bytes": 1288,
+      "sha256": "563d030b469f1a81014a95286d8085c7754fe434dc7f49c259cb758bde4fc151"
+    },
+    {
+      "path": "store-assets/play/feature-graphic.png",
+      "bytes": 51681,
+      "sha256": "72ac4d0f8760d626912cff70a5aee50c558dc249ec3cf94d35efb0ed0fdc6828"
+    },
+    {
+      "path": "store-assets/play/feature-graphic.svg",
+      "bytes": 2188,
+      "sha256": "9a661b8d4469a67cffde9b03cd2e7493b141940830b2bba551ba3adffbb3758c"
+    },
+    {
+      "path": "store-assets/play/listing.json",
+      "bytes": 7225,
+      "sha256": "1801a680cf4a971ad0fd58d2b5fb231103b1fdba1e19dd052479cd6ccec7cbbb"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-1.png",
+      "bytes": 85046,
+      "sha256": "e616658a15c647cebcb00e72b9fe01dd041cd97e1eeb5e430803e17d1c06a97d"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-1.svg",
+      "bytes": 3694,
+      "sha256": "70659578c528df3a582406757c28675e86e0264af20baf12b619232f450e1bb8"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-2.png",
+      "bytes": 85491,
+      "sha256": "99d91d1e7a86d2ec8a82fae81f38aced1580288b52477f83b29301e7eb6b9fe3"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-2.svg",
+      "bytes": 3232,
+      "sha256": "31396bc103de1e7753c10d5a8ba4dcee3dd3bd5c87b7a5904c2db11c620cfce4"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-3.png",
+      "bytes": 72548,
+      "sha256": "cfab18ecb497ee48afcfbb845b39c37b425c27019baa0f6e32ba15d315261389"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-3.svg",
+      "bytes": 2482,
+      "sha256": "ac225e637ebfb96bb802a5d36c2b1f14510ed9112213ea1b4c2126f0a99826b8"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-4.png",
+      "bytes": 72193,
+      "sha256": "c29becb5dfcdea5262248c7c64cdc7675ef48c953e11f47a4520ec5334b90811"
+    },
+    {
+      "path": "store-assets/play/phone-screenshot-4.svg",
+      "bytes": 1948,
+      "sha256": "39a23912e66dd6b803b568c1ed39e8db03afd9c7d31f49b7f4e2221e0a5b41f0"
+    },
+    {
+      "path": "store-assets/play/release-notes.txt",
+      "bytes": 211,
+      "sha256": "6571eb76d8677c6a373b6753ec18b7c4ae357416628513115f71f87b6e481660"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-1.png",
+      "bytes": 107687,
+      "sha256": "cb0d4200ccc31e7ef9a6e7374d9146392710c5e02bea28c48211521a5fa9e581"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-1.svg",
+      "bytes": 2413,
+      "sha256": "0c19062ee57aa7225da9c4ea804bce58d5135f566e34ff5dcb462f875dbf1a03"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-2.png",
+      "bytes": 71458,
+      "sha256": "3901d6fd934eea98634516b19d32282ba04818b77fad426822a3c02845d6bf8a"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-2.svg",
+      "bytes": 2095,
+      "sha256": "5d1427ea0b24489f243b6f664da4fe0bee7c854ee4b90721380988c6c22bd8b4"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-3.png",
+      "bytes": 102994,
+      "sha256": "6d5917f1da4622a3c13752726c1b925b324290aedbaa10e2543a7c0abfb2b2f0"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-3.svg",
+      "bytes": 2198,
+      "sha256": "4ec729e35df36a57a0300403818c8a5cc729ceba329de614cfa52c5212f3c8f0"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-4.png",
+      "bytes": 113809,
+      "sha256": "9353f198ad9c66a10071558313b9109c45ae1625a87405a3db3bba7e620f953e"
+    },
+    {
+      "path": "store-assets/play/tablet-10-screenshot-4.svg",
+      "bytes": 1968,
+      "sha256": "d3669177c3c54773786e4851281263e046653cff91b7258f349ca8b063a59dec"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-1.png",
+      "bytes": 78035,
+      "sha256": "2570bdf465a9e318fce70bc1fc122b180cdfbfcf6cd8429ad932082c8d1301bd"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-1.svg",
+      "bytes": 2396,
+      "sha256": "4dca861bfc2d58a0693e7244fc16f15aba5eab80dcb22e19782c217a99198c84"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-2.png",
+      "bytes": 52082,
+      "sha256": "7366c5aac42d72462a3717c7eba83905dfe476ee996d15a2e3c9be0b02cffee8"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-2.svg",
+      "bytes": 2078,
+      "sha256": "2cfb62f831be4ffa4050aeb2db42d4ac4052928ba04382e24786cef93530b9d7"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-3.png",
+      "bytes": 74544,
+      "sha256": "53adf4b145e8fd8370c38c9a1e0d9662069818f41b7600067118250ad875ba90"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-3.svg",
+      "bytes": 2181,
+      "sha256": "81b9ca1675fc8b1a3a5a5d6353d4b5b273f83c9ca13e252fbad569e5aaf67f38"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-4.png",
+      "bytes": 82296,
+      "sha256": "e97926ea1d20918c945da44dd33006cf2815575f624bf4746b33b03f3d68a5ca"
+    },
+    {
+      "path": "store-assets/play/tablet-7-screenshot-4.svg",
+      "bytes": 1951,
+      "sha256": "6b22043989d745ec6b9eb930a6aa4a8665032429fed7c0d55e8ccca1525c773d"
+    },
+    {
+      "path": "wrangler.toml",
+      "bytes": 96,
+      "sha256": "6c28f6ad510f7cda384a536d612e26306dd4528f220ea10dba43595f24ab1605"
+    }
+  ]
+}

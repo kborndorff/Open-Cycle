@@ -1,0 +1,56 @@
+name: Deploy Site to Cloudflare Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-site:
+    runs-on: ubuntu-latest
+    env:
+      CF_PAGES_PROJECT_NAME: ${{ vars.CF_PAGES_PROJECT_NAME || 'open-cycle-site' }}
+      CF_API_TOKEN_PRESENT: ${{ secrets.CF_API_TOKEN != '' }}
+      CF_ACCOUNT_ID_PRESENT: ${{ secrets.CF_ACCOUNT_ID != '' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install
+        run: npm install
+
+      - name: Fill public repository links
+        run: npm run prepare-site-links
+
+      - name: Validate License Policy
+        run: npm run validate:license
+
+      - name: Build Site
+        run: npm run build:site
+
+      - name: Validate Site Deploy Output
+        run: npm run validate:site
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ env.CF_API_TOKEN_PRESENT == 'true' && env.CF_ACCOUNT_ID_PRESENT == 'true' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy site/dist --project-name ${{ env.CF_PAGES_PROJECT_NAME }}
+
+      - name: Skip deploy without Cloudflare secrets
+        if: ${{ env.CF_API_TOKEN_PRESENT != 'true' || env.CF_ACCOUNT_ID_PRESENT != 'true' }}
+        run: echo "Cloudflare secrets are not configured; validated the public site build only."
+
+      - name: Validate Live Custom Domain
+        run: npm run validate:custom-domain:live

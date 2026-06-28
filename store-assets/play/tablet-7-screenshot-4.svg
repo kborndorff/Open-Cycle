@@ -1,0 +1,20 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1920" height="1080" fill="#edf1f7" />
+      <g transform="translate(0 0) scale(1)">
+        <rect x="78" y="64" width="1764" height="952" rx="42" fill="#26324a" />
+        <rect x="114" y="102" width="1692" height="876" rx="28" fill="#f7f9fc" />
+        <rect x="846" y="80" width="228" height="18" rx="9" fill="#52637f" />
+        
+      <text x="180" y="210" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="62" font-weight="700">Private by default</text>
+      <text x="180" y="278" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="30">Local controls for clearing data from the app.</text>
+      <rect x="180" y="386" width="680" height="360" rx="24" fill="#eaf1e8" stroke="#9ec29e" />
+      <text x="240" y="480" fill="#245126" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="40" font-weight="700">No ads or hidden tracking</text>
+      <text x="240" y="546" fill="#245126" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28">No signup, tracking SDKs,</text>
+      <text x="240" y="596" fill="#245126" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28">analytics, or cloud sync.</text>
+      <rect x="940" y="386" width="680" height="360" rx="24" fill="#ffffff" stroke="#d8deea" />
+      <text x="1000" y="480" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="40" font-weight="700">Clear all local entries</text>
+      <text x="1000" y="546" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28">Delete entries on this device</text>
+      <text x="1000" y="596" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28">from inside the app.</text>
+    
+      </g>
+    </svg>

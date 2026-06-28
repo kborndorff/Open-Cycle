@@ -1,0 +1,315 @@
+{
+  "generatedAt": "2026-06-28T08:31:46.910Z",
+  "status": "public-safe-play-console-submit-bundle",
+  "appName": "open-cycle",
+  "packageName": "com.opencycle.app",
+  "privacyPolicyUrl": "https://open-cycle.com/privacy",
+  "temporaryPrivacyPolicyUrlBeforeCustomDomainValidation": "https://open-cycle-site.pages.dev/privacy",
+  "customDomainValidationCommand": "npm run validate:custom-domain:live",
+  "signedAabIncluded": false,
+  "privateMaterialIncluded": false,
+  "ownerMustAddSignedAabSeparately": true,
+  "files": [
+    {
+      "category": "metadata",
+      "source": "store-assets/play/listing.json",
+      "target": "store-listing/listing.json",
+      "bytes": 7225,
+      "sha256": "1801a680cf4a971ad0fd58d2b5fb231103b1fdba1e19dd052479cd6ccec7cbbb"
+    },
+    {
+      "category": "metadata",
+      "source": "store-assets/play/release-notes.txt",
+      "target": "store-listing/release-notes.txt",
+      "bytes": 211,
+      "sha256": "6571eb76d8677c6a373b6753ec18b7c4ae357416628513115f71f87b6e481660"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/app-icon.png",
+      "target": "graphics/app-icon.png",
+      "bytes": 32583,
+      "sha256": "857df61ea00e0d763ae9f1baf0d77482073813abf2f9512e068f323e965b3578"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/feature-graphic.png",
+      "target": "graphics/feature-graphic.png",
+      "bytes": 51681,
+      "sha256": "72ac4d0f8760d626912cff70a5aee50c558dc249ec3cf94d35efb0ed0fdc6828"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/phone-screenshot-1.png",
+      "target": "graphics/phone-screenshot-1.png",
+      "bytes": 85046,
+      "sha256": "e616658a15c647cebcb00e72b9fe01dd041cd97e1eeb5e430803e17d1c06a97d"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/phone-screenshot-2.png",
+      "target": "graphics/phone-screenshot-2.png",
+      "bytes": 85491,
+      "sha256": "99d91d1e7a86d2ec8a82fae81f38aced1580288b52477f83b29301e7eb6b9fe3"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/phone-screenshot-3.png",
+      "target": "graphics/phone-screenshot-3.png",
+      "bytes": 72548,
+      "sha256": "cfab18ecb497ee48afcfbb845b39c37b425c27019baa0f6e32ba15d315261389"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/phone-screenshot-4.png",
+      "target": "graphics/phone-screenshot-4.png",
+      "bytes": 72193,
+      "sha256": "c29becb5dfcdea5262248c7c64cdc7675ef48c953e11f47a4520ec5334b90811"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-7-screenshot-1.png",
+      "target": "graphics/tablet-7/screenshot-1.png",
+      "bytes": 78035,
+      "sha256": "2570bdf465a9e318fce70bc1fc122b180cdfbfcf6cd8429ad932082c8d1301bd"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-7-screenshot-2.png",
+      "target": "graphics/tablet-7/screenshot-2.png",
+      "bytes": 52082,
+      "sha256": "7366c5aac42d72462a3717c7eba83905dfe476ee996d15a2e3c9be0b02cffee8"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-7-screenshot-3.png",
+      "target": "graphics/tablet-7/screenshot-3.png",
+      "bytes": 74544,
+      "sha256": "53adf4b145e8fd8370c38c9a1e0d9662069818f41b7600067118250ad875ba90"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-7-screenshot-4.png",
+      "target": "graphics/tablet-7/screenshot-4.png",
+      "bytes": 82296,
+      "sha256": "e97926ea1d20918c945da44dd33006cf2815575f624bf4746b33b03f3d68a5ca"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-10-screenshot-1.png",
+      "target": "graphics/tablet-10/screenshot-1.png",
+      "bytes": 107687,
+      "sha256": "cb0d4200ccc31e7ef9a6e7374d9146392710c5e02bea28c48211521a5fa9e581"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-10-screenshot-2.png",
+      "target": "graphics/tablet-10/screenshot-2.png",
+      "bytes": 71458,
+      "sha256": "3901d6fd934eea98634516b19d32282ba04818b77fad426822a3c02845d6bf8a"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-10-screenshot-3.png",
+      "target": "graphics/tablet-10/screenshot-3.png",
+      "bytes": 102994,
+      "sha256": "6d5917f1da4622a3c13752726c1b925b324290aedbaa10e2543a7c0abfb2b2f0"
+    },
+    {
+      "category": "graphic",
+      "source": "store-assets/play/tablet-10-screenshot-4.png",
+      "target": "graphics/tablet-10/screenshot-4.png",
+      "bytes": 113809,
+      "sha256": "9353f198ad9c66a10071558313b9109c45ae1625a87405a3db3bba7e620f953e"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-console-upload-packet.md",
+      "target": "play-console/upload-packet.md",
+      "bytes": 8477,
+      "sha256": "723fe8d2178988bbc0251a8d2a2e518a7c141e02c00e145a727914db7d8e611d"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-console-field-map.json",
+      "target": "play-console/field-map.json",
+      "bytes": 17357,
+      "sha256": "6b6ba9b54f54ebfb5a0ab78188555d8bb6f751c52d55ccef345734373fe82e5c"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-console-field-map.md",
+      "target": "play-console/field-map.md",
+      "bytes": 12563,
+      "sha256": "1867162db1cc32ddc8c97ed444744557268b1d09523c86488f6f84fd036df695"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-data-safety-packet.md",
+      "target": "play-console/data-safety-packet.md",
+      "bytes": 2353,
+      "sha256": "fb77cfc2784fdb9e7c633a7becbff6c6814cc321a3e5377a6bd60354f95d6e81"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-content-rating-packet.md",
+      "target": "play-console/content-rating-packet.md",
+      "bytes": 2210,
+      "sha256": "ff81dddccd002649147a592def09f019f47989b8a1909c3cb0601cbc70779897"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-health-declaration-packet.md",
+      "target": "play-console/health-declaration-packet.md",
+      "bytes": 3185,
+      "sha256": "461c647d0f551f0b239f7d2cdff36c2c1102e0d8b0dedeb339bd4c067e7b350d"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-app-access-packet.md",
+      "target": "play-console/app-access-packet.md",
+      "bytes": 1757,
+      "sha256": "7e562c4c197e917bbb92dfcca5552eaf17c981dd28ef890169e2603b3dae5745"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-ads-declaration-packet.md",
+      "target": "play-console/ads-declaration-packet.md",
+      "bytes": 1449,
+      "sha256": "a388af808b9d4ca70e09ce696dd2da8d02d953a151ca91b5ea730fd270204aa7"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-target-audience-packet.md",
+      "target": "play-console/target-audience-packet.md",
+      "bytes": 2082,
+      "sha256": "61fabf291c28e15edf3bc88edfb392454edfca916d6629eee76f6a0e8d0146d2"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-testing-rollout-packet.md",
+      "target": "play-console/testing-rollout-packet.md",
+      "bytes": 3409,
+      "sha256": "011bb8c2e05e5b1852e13c21f3ace2c2962d28c0bb635dcb1664fadaa9be7a13"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-app-content-packet.md",
+      "target": "play-console/app-content-packet.md",
+      "bytes": 2564,
+      "sha256": "381813827b039cd95295494f194048ea91b141d7b310bdb0788dfde5f5cc097c"
+    },
+    {
+      "category": "play-console",
+      "source": "reports/play-release-candidate-packet.md",
+      "target": "play-console/release-candidate-packet.md",
+      "bytes": 2655,
+      "sha256": "7dd503c16e36108db8a8ce1bc1f4f5a86d8d35a7a60658ada5e44f20ebbdd25b"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/android-permissions.json",
+      "target": "evidence/android-permissions.json",
+      "bytes": 1906,
+      "sha256": "dbc22855ed782db82bac2ff2e0e4a51fe80021970f3b974c3919b948bdce488a"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/play-store-preflight.json",
+      "target": "evidence/play-store-preflight.json",
+      "bytes": 4089,
+      "sha256": "3487818b00575970809684a7622d767a7055d9cacb38a9e47766e600ecf44c9d"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/emulator-qa-report.json",
+      "target": "evidence/emulator-qa-report.json",
+      "bytes": 3028,
+      "sha256": "cc939dea611ebc1dce79dda02702dced702814e64dace431432fa1233fc05930"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visual-evidence-manifest.json",
+      "target": "evidence/visual-evidence-manifest.json",
+      "bytes": 13064,
+      "sha256": "20d7073f7ef01db06a2962a3d63ffee08cc3168dfe1a39ac1933fbb97af97bba"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/site-desktop.png",
+      "target": "evidence/visuals/site-desktop.png",
+      "bytes": 272134,
+      "sha256": "bf0d73263414a48d78c8ce960ea8cdc434086e187b9e3ec4fc5e2372f3994570"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/site-phone.png",
+      "target": "evidence/visuals/site-phone.png",
+      "bytes": 1017856,
+      "sha256": "bc3c78bfc5d3d5f60840035e9ffc13c0811bfea2efeed65fc73f1bda15d5d8d1"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/site-blog-desktop.png",
+      "target": "evidence/visuals/site-blog-desktop.png",
+      "bytes": 121910,
+      "sha256": "14dfc517b8fd55f26702fbc870beb0f925f2db5e71ff2aad5f1abeed1e5c930f"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/site-blog-phone.png",
+      "target": "evidence/visuals/site-blog-phone.png",
+      "bytes": 446212,
+      "sha256": "4320a9e56f7e0622ec56dd56a3f7fdc1baa69618bd67f2e319e17ff86036279d"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/app-desktop.png",
+      "target": "evidence/visuals/app-desktop.png",
+      "bytes": 317527,
+      "sha256": "45fb673ada07b41ecb1d5ee7f49b55217837fc738e7f26224e7a3971b6c15b10"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/app-phone.png",
+      "target": "evidence/visuals/app-phone.png",
+      "bytes": 773008,
+      "sha256": "9bf19e8d62fb620df7adec3c70f421960d2df57abb9a584d1c004cac6ad8211e"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/android-emulator-app.png",
+      "target": "evidence/visuals/android-emulator-app.png",
+      "bytes": 562627,
+      "sha256": "da269ec72582a7d1800b6463f05cd8b604c47d06a836ad59bc32a9e58eb3faac"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/android-emulator-cycle-log.png",
+      "target": "evidence/visuals/android-emulator-cycle-log.png",
+      "bytes": 251107,
+      "sha256": "82bba98fba66d7ee238ad08e0739cc8dd6f09c43e645b8761392b640f8dc6335"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/android-emulator-saved-entry.png",
+      "target": "evidence/visuals/android-emulator-saved-entry.png",
+      "bytes": 230419,
+      "sha256": "53491b968f29fed6455e915312425ca6e56cab32a734a417fdc72a835bc2d08e"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/android-window.xml",
+      "target": "evidence/visuals/android-window.xml",
+      "bytes": 21243,
+      "sha256": "e338ffd6fc9b5b9eec7a79e33bb3cced156406c85189703c03a17132b202d321"
+    },
+    {
+      "category": "evidence",
+      "source": "reports/visuals/android-webview-dom.json",
+      "target": "evidence/visuals/android-webview-dom.json",
+      "bytes": 5857,
+      "sha256": "6f10489d46d02912f8a8f59c4611a0e146cf42f0a9c90ebefe185059103e59b3"
+    }
+  ]
+}

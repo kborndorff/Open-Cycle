@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-06-28T04:25:37.315Z",
+  "status": "ready-for-private-signing",
+  "blockingFailures": [],
+  "pendingPrivateSteps": [
+    "signedAab"
+  ],
+  "artifacts": {
+    "unsignedAab": {
+      "exists": true,
+      "bytes": 2995668,
+      "sha256": "04bf93f886d72e8cedd961051f64821a1d724bd7edf50fb2b0a99abf4e4fd44f"
+    },
+    "signedAab": {
+      "exists": true,
+      "bytes": 3037408,
+      "sha256": "828f8acfe37010dd6dcc9e7e8facca0509c3000b0cd43348a2eb4b14cc5df155"
+    },
+    "playMetadata": {
+      "exists": true,
+      "bytes": 7206,
+      "sha256": "5622183fdf9c214cf16ab5d99d9a2d422861852be8b2784cdd5fe75db031b7cb"
+    },
+    "playReleaseNotes": {
+      "exists": true,
+      "bytes": 211,
+      "sha256": "6571eb76d8677c6a373b6753ec18b7c4ae357416628513115f71f87b6e481660"
+    },
+    "playAssets": {
+      "appIcon": {
+        "exists": true,
+        "bytes": 32583,
+        "sha256": "857df61ea00e0d763ae9f1baf0d77482073813abf2f9512e068f323e965b3578",
+        "dimensions": {
+          "width": 512,
+          "height": 512
+        },
+        "expected": {
+          "width": 512,
+          "height": 512
+        },
+        "status": "pass"
+      },
+      "featureGraphic": {
+        "exists": true,
+        "bytes": 51681,
+        "sha256": "72ac4d0f8760d626912cff70a5aee50c558dc249ec3cf94d35efb0ed0fdc6828",
+        "dimensions": {
+          "width": 1024,
+          "height": 500
+        },
+        "expected": {
+          "width": 1024,
+          "height": 500
+        },
+        "status": "pass"
+      },
+      "phoneScreenshot1": {
+        "exists": true,
+        "bytes": 84349,
+        "sha256": "044a4fe17728be31e7d55340c789ef0538161de3d231612df6e0b0429765f754",
+        "dimensions": {
+          "width": 1080,
+          "height": 1920
+        },
+        "expected": {
+          "width": 1080,
+          "height": 1920
+        },
+        "status": "pass"
+      },
+      "phoneScreenshot2": {
+        "exists": true,
+        "bytes": 85491,
+        "sha256": "99d91d1e7a86d2ec8a82fae81f38aced1580288b52477f83b29301e7eb6b9fe3",
+        "dimensions": {
+          "width": 1080,
+          "height": 1920
+        },
+        "expected": {
+          "width": 1080,
+          "height": 1920
+        },
+        "status": "pass"
+      },
+      "phoneScreenshot3": {
+        "exists": true,
+        "bytes": 72548,
+        "sha256": "cfab18ecb497ee48afcfbb845b39c37b425c27019baa0f6e32ba15d315261389",
+        "dimensions": {
+          "width": 1080,
+          "height": 1920
+        },
+        "expected": {
+          "width": 1080,
+          "height": 1920
+        },
+        "status": "pass"
+      },
+      "phoneScreenshot4": {
+        "exists": true,
+        "bytes": 74842,
+        "sha256": "75473566e058253a24fb2db86cfffe291e9e8838c81d1e7b999e314c901705a8",
+        "dimensions": {
+          "width": 1080,
+          "height": 1920
+        },
+        "expected": {
+          "width": 1080,
+          "height": 1920
+        },
+        "status": "pass"
+      }
+    }
+  },
+  "checks": {
+    "unsignedAab": {
+      "status": "pass",
+      "detail": "Unsigned AAB exists."
+    },
+    "signedAab": {
+      "status": "pending",
+      "reason": "Signed AAB evidence is not pass; re-sign the current AAB and regenerate signed evidence."
+    },
+    "manifestNoInternet": {
+      "status": "pass",
+      "detail": "No Android internet permission."
+    },
+    "manifestNoBackup": {
+      "status": "pass",
+      "detail": "Android backup is disabled."
+    },
+    "privacyPolicy": {
+      "status": "pass",
+      "detail": "Privacy policy is present in site/dist."
+    },
+    "runtimeQaChecklist": {
+      "status": "pass",
+      "detail": "Runtime QA checklist exists."
+    },
+    "playAssets": {
+      "status": "pass",
+      "detail": "Play Store PNG assets exist with expected dimensions."
+    },
+    "playMetadata": {
+      "status": "pass",
+      "detail": "Play Store listing and data-safety metadata are present and consistent."
+    },
+    "playReleaseNotes": {
+      "status": "pass",
+      "detail": "Play release notes are present and local-only."
+    }
+  }
+}

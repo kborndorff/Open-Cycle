@@ -1,0 +1,22 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="2560" height="1440" fill="#edf1f7" />
+      <g transform="translate(0 0) scale(1.3333333333333333)">
+        <rect x="78" y="64" width="1764" height="952" rx="42" fill="#26324a" />
+        <rect x="114" y="102" width="1692" height="876" rx="28" fill="#f7f9fc" />
+        <rect x="846" y="80" width="228" height="18" rx="9" fill="#52637f" />
+        
+      <text x="180" y="210" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="62" font-weight="700">Review and edit</text>
+      <text x="180" y="278" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="30">Recent entries are easy to scan on larger displays.</text>
+      <rect x="180" y="372" width="1440" height="150" rx="20" fill="#ffffff" stroke="#d8deea" />
+      <text x="238" y="438" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="36" font-weight="700">Medium flow</text>
+      <text x="238" y="490" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26">Cramps, calm mood, evening note</text>
+      <rect x="180" y="554" width="1440" height="150" rx="20" fill="#ffffff" stroke="#d8deea" />
+      <text x="238" y="620" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="36" font-weight="700">Light flow</text>
+      <text x="238" y="672" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26">Headache, tired mood</text>
+      <rect x="180" y="778" width="620" height="88" rx="14" fill="#eef2fa" stroke="#cfd7e6" />
+      <text x="490" y="834" text-anchor="middle" fill="#40516d" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28" font-weight="700">Edit selected entry</text>
+      <rect x="866" y="778" width="620" height="88" rx="14" fill="#f8ecec" stroke="#e3b8b8" />
+      <text x="1176" y="834" text-anchor="middle" fill="#6f2d2d" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28" font-weight="700">Delete one entry</text>
+    
+      </g>
+    </svg>

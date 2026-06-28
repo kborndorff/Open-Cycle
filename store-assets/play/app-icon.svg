@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="36" y="36" width="440" height="440" rx="96" fill="#edf1f7" />
+      <circle cx="256" cy="244" r="158" fill="#ffffff" fill-opacity="0.94" />
+      <circle cx="256" cy="244" r="144" stroke="#6d7e96" stroke-width="16" fill="none" />
+      <circle cx="256" cy="244" r="24" fill="#6d7e96" />
+      <circle cx="368" cy="244" r="18" fill="#4f607f" />
+      <circle cx="144" cy="244" r="18" fill="#4f607f" />
+      <circle cx="256" cy="132" r="18" fill="#4f607f" />
+      <circle cx="256" cy="356" r="18" fill="#4f607f" />
+      <path d="M256 244L256 132" stroke="#4f607f" stroke-width="14" stroke-linecap="round" />
+      <path d="M256 244L368 244" stroke="#4f607f" stroke-width="14" stroke-linecap="round" />
+      <path d="M256 244L196 184" stroke="#4f607f" stroke-width="12" stroke-linecap="round" />
+      <path d="M256 244L316 304" stroke="#4f607f" stroke-width="12" stroke-linecap="round" />
+      <circle cx="256" cy="244" r="76" stroke="#9aaec7" stroke-width="10" stroke-dasharray="10 16" />
+      <text x="256" y="424" text-anchor="middle" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="34" font-weight="800">CORE</text>
+    </svg>

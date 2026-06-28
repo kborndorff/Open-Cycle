@@ -1,0 +1,26 @@
+<svg width="1024" height="500" viewBox="0 0 1024 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1024" height="500" fill="#edf1f7" />
+      <path d="M0 430 C170 365 310 390 454 335 C610 275 748 210 1024 248 V500 H0 Z" fill="#dfe7f1" />
+      <path d="M0 78 C164 123 268 74 402 102 C556 134 694 226 1024 164 V0 H0 Z" fill="#f8fafc" opacity="0.82" />
+      
+    <g transform="translate(84 86) scale(1.1714285714285715)">
+      <circle cx="140" cy="140" r="132" fill="#edf1f7" />
+      <circle cx="140" cy="140" r="104" fill="#ffffff" fill-opacity="0.92" />
+      <circle cx="140" cy="140" r="100" stroke="#6d7e96" stroke-width="9" fill="none" />
+      <circle cx="140" cy="140" r="16" fill="#6d7e96" />
+      <circle cx="220" cy="140" r="13" fill="#4f607f" />
+      <circle cx="60" cy="140" r="13" fill="#4f607f" />
+      <circle cx="140" cy="60" r="13" fill="#4f607f" />
+      <circle cx="140" cy="220" r="13" fill="#4f607f" />
+      <path d="M140 140L140 60" stroke="#4f607f" stroke-width="8" stroke-linecap="round" />
+      <path d="M140 140L220 140" stroke="#4f607f" stroke-width="8" stroke-linecap="round" />
+      <path d="M140 140L98 98" stroke="#4f607f" stroke-width="7" stroke-linecap="round" />
+      <path d="M140 140L182 182" stroke="#4f607f" stroke-width="7" stroke-linecap="round" />
+      <circle cx="140" cy="140" r="52" stroke="#9aaec7" stroke-width="6" stroke-dasharray="6 10" />
+    </g>
+      <text x="468" y="188" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="58" font-weight="700">open-cycle</text>
+      <text x="470" y="250" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="30" font-weight="600">Free local cycle tracking</text>
+      <text x="470" y="306" fill="#3d4b61" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="24">No account. No hidden tracking. No cloud sync.</text>
+      <rect x="470" y="354" width="238" height="46" rx="8" fill="#4f668d" />
+      <text x="589" y="385" text-anchor="middle" fill="#ffffff" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="20" font-weight="700">Truly local</text>
+    </svg>

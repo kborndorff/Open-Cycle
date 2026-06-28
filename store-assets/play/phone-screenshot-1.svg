@@ -1,0 +1,41 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1080" height="1920" fill="#edf1f7" />
+      <rect x="118" y="72" width="844" height="1776" rx="58" fill="#26324a" />
+      <rect x="146" y="112" width="788" height="1696" rx="38" fill="#f7f9fc" />
+      <rect x="432" y="88" width="216" height="22" rx="11" fill="#52637f" />
+      
+      
+    <g transform="translate(202 176) scale(0.6142857142857143)">
+      <circle cx="140" cy="140" r="132" fill="#edf1f7" />
+      <circle cx="140" cy="140" r="104" fill="#ffffff" fill-opacity="0.92" />
+      <circle cx="140" cy="140" r="100" stroke="#6d7e96" stroke-width="9" fill="none" />
+      <circle cx="140" cy="140" r="16" fill="#6d7e96" />
+      <circle cx="220" cy="140" r="13" fill="#4f607f" />
+      <circle cx="60" cy="140" r="13" fill="#4f607f" />
+      <circle cx="140" cy="60" r="13" fill="#4f607f" />
+      <circle cx="140" cy="220" r="13" fill="#4f607f" />
+      <path d="M140 140L140 60" stroke="#4f607f" stroke-width="8" stroke-linecap="round" />
+      <path d="M140 140L220 140" stroke="#4f607f" stroke-width="8" stroke-linecap="round" />
+      <path d="M140 140L98 98" stroke="#4f607f" stroke-width="7" stroke-linecap="round" />
+      <path d="M140 140L182 182" stroke="#4f607f" stroke-width="7" stroke-linecap="round" />
+      <circle cx="140" cy="140" r="52" stroke="#9aaec7" stroke-width="6" stroke-dasharray="6 10" />
+    </g>
+      <text x="404" y="246" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="54" font-weight="700">open-cycle</text>
+      <text x="404" y="304" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="28">Cycle entries stay on your device.</text>
+      <rect x="206" y="430" width="668" height="330" rx="18" fill="#ffffff" stroke="#d8deea" />
+      <text x="250" y="502" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="38" font-weight="700">Your cycle log</text>
+      <rect x="250" y="548" width="280" height="72" rx="10" fill="#eef2fa" stroke="#cfd7e6" />
+      <rect x="552" y="548" width="280" height="72" rx="10" fill="#eef2fa" stroke="#cfd7e6" />
+      <rect x="250" y="642" width="582" height="72" rx="10" fill="#4f668d" />
+      <text x="541" y="688" text-anchor="middle" fill="#ffffff" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26" font-weight="700">Save entry</text>
+      <rect x="206" y="820" width="668" height="164" rx="18" fill="#ffffff" stroke="#d8deea" />
+      <text x="250" y="888" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="34" font-weight="700">Medium flow</text>
+      <text x="250" y="940" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="25">Cramps - calm</text>
+      <rect x="206" y="1020" width="668" height="164" rx="18" fill="#ffffff" stroke="#d8deea" />
+      <text x="250" y="1088" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="34" font-weight="700">Light flow</text>
+      <text x="250" y="1140" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="25">Headache - tired</text>
+      <rect x="206" y="1284" width="668" height="190" rx="18" fill="#eaf1e8" stroke="#9ec29e" />
+      <text x="250" y="1360" fill="#245126" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="32" font-weight="700">No internet needed</text>
+      <text x="250" y="1412" fill="#245126" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="24">Saved entries stay on your phone.</text>
+    
+    </svg>

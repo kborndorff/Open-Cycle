@@ -1,0 +1,23 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="2560" height="1440" fill="#edf1f7" />
+      <g transform="translate(0 0) scale(1.3333333333333333)">
+        <rect x="78" y="64" width="1764" height="952" rx="42" fill="#26324a" />
+        <rect x="114" y="102" width="1692" height="876" rx="28" fill="#f7f9fc" />
+        <rect x="846" y="80" width="228" height="18" rx="9" fill="#52637f" />
+        
+      <text x="180" y="210" fill="#27324a" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="62" font-weight="700">Add a cycle entry</text>
+      <text x="180" y="278" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="30">Simple fields, no account, no cloud sync.</text>
+      <rect x="180" y="370" width="1440" height="430" rx="22" fill="#ffffff" stroke="#d8deea" />
+      <rect x="250" y="452" width="390" height="84" rx="10" fill="#eef2fa" stroke="#cfd7e6" />
+      <text x="280" y="505" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26">Date</text>
+      <rect x="700" y="452" width="390" height="84" rx="10" fill="#eef2fa" stroke="#cfd7e6" />
+      <text x="730" y="505" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26">Flow</text>
+      <rect x="1150" y="452" width="390" height="84" rx="10" fill="#eef2fa" stroke="#cfd7e6" />
+      <text x="1180" y="505" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26">Mood</text>
+      <rect x="250" y="604" width="1290" height="90" rx="10" fill="#eef2fa" stroke="#cfd7e6" />
+      <text x="280" y="660" fill="#4f607f" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="26">Symptoms and notes</text>
+      <rect x="250" y="720" width="390" height="72" rx="10" fill="#4f668d" />
+      <text x="445" y="767" text-anchor="middle" fill="#ffffff" font-family="Avenir Next, Avenir, Trebuchet MS, sans-serif" font-size="27" font-weight="700">Save entry</text>
+    
+      </g>
+    </svg>

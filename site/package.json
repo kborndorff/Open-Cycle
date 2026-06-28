@@ -1,0 +1,14 @@
+{
+  "name": "open-cycle",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "vite build && node ../scripts/copy-site-static-pages.js",
+    "start": "vite preview --host 0.0.0.0 --port 4174"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}

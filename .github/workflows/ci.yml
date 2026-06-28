@@ -1,0 +1,33 @@
+name: OpenCycle Local CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm install
+
+      - name: Validate proof and product repository
+        run: npm run validate:proof-product-repository
+
+      - name: Build site
+        run: npm run build:site
+
+      - name: Validate site output
+        run: npm run validate:site

@@ -1,0 +1,374 @@
+{
+  "generatedAt": "2026-06-28T08:31:43.986Z",
+  "status": "public-safe-play-console-field-map",
+  "appName": "open-cycle",
+  "packageName": "com.opencycle.app",
+  "fieldCount": 52,
+  "privateMaterialIncluded": false,
+  "fields": [
+    {
+      "section": "App identity",
+      "name": "App name",
+      "value": "open-cycle",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App identity",
+      "name": "Package name",
+      "value": "com.opencycle.app",
+      "source": "Android applicationId",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Store settings",
+      "name": "Category",
+      "value": "Health & Fitness",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Store settings",
+      "name": "Pricing",
+      "value": "Free",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Main store listing",
+      "name": "Short description",
+      "value": "Free privacy-first period tracker. No account, ads, or cloud sync.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Main store listing",
+      "name": "Full description",
+      "value": "open-cycle is a simple, free, privacy-first period tracker. Save dates, flow, symptoms, moods, and notes so you can remember what happened and notice patterns over time.\n\nYou do not need an account to use the tracker. There are no ads, no required cloud sync, and no required internet connection to add or review entries. Your saved entries stay on your phone.\n\nopen-cycle is a personal wellness log, not medical advice, diagnosis, or treatment. Talk with a doctor or qualified clinician about health concerns.\n\nFor reminders, exports, richer pattern views, and a larger feature set, Local Cycle offers a separate one-time paid option at local-cycle.com. open-cycle remains free for everyday tracking.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Main store listing",
+      "name": "Privacy policy URL",
+      "value": "https://open-cycle.com/privacy",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Use only after npm run validate:custom-domain:live passes."
+    },
+    {
+      "section": "Main store listing",
+      "name": "Temporary privacy policy fallback",
+      "value": "https://open-cycle-site.pages.dev/privacy",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Use only until open-cycle.com is attached and validated."
+    },
+    {
+      "section": "Main store listing",
+      "name": "Support URL",
+      "value": "https://github.com/kborndorff/Open-Cycle/issues",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Store listing > Graphics",
+      "name": "App icon",
+      "value": "store-assets/play/app-icon.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics",
+      "name": "App icon alt text",
+      "value": "open-cycle circular cycle tracker icon with four marked cycle points.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics",
+      "name": "Feature graphic",
+      "value": "store-assets/play/feature-graphic.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics",
+      "name": "Feature graphic alt text",
+      "value": "open-cycle feature graphic describing free local period tracking with no account or cloud sync.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 1",
+      "value": "store-assets/play/phone-screenshot-1.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 1 alt text",
+      "value": "Phone view of the cycle log form, saved entries, and no-internet-required message.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 2",
+      "value": "store-assets/play/phone-screenshot-2.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 2 alt text",
+      "value": "Phone dashboard showing simple entries, latest entry summary, and privacy copy that says entries stay on this device.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 3",
+      "value": "store-assets/play/phone-screenshot-3.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 3 alt text",
+      "value": "Phone view showing recent cycle entries with edit and delete controls.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 4",
+      "value": "store-assets/play/phone-screenshot-4.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > Phone screenshots",
+      "name": "Phone screenshot 4 alt text",
+      "value": "Phone controls screen showing total entries and clear-all local entries option.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 1",
+      "value": "store-assets/play/tablet-7-screenshot-1.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 1 alt text",
+      "value": "7-inch tablet dashboard showing entry count, latest entry, and no internet requirement.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 2",
+      "value": "store-assets/play/tablet-7-screenshot-2.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 2 alt text",
+      "value": "7-inch tablet entry form for date, flow, mood, symptoms, notes, and saving an entry.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 3",
+      "value": "store-assets/play/tablet-7-screenshot-3.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 3 alt text",
+      "value": "7-inch tablet review screen with recent entries plus edit and delete controls.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 4",
+      "value": "store-assets/play/tablet-7-screenshot-4.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 7-inch tablet screenshots",
+      "name": "7-inch tablet screenshot 4 alt text",
+      "value": "7-inch tablet privacy screen showing no ads or hidden tracking and clear-all local entries.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 1",
+      "value": "store-assets/play/tablet-10-screenshot-1.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 1 alt text",
+      "value": "10-inch tablet dashboard showing entry count, latest entry, and no internet requirement.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 2",
+      "value": "store-assets/play/tablet-10-screenshot-2.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 2 alt text",
+      "value": "10-inch tablet entry form for date, flow, mood, symptoms, notes, and saving an entry.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 3",
+      "value": "store-assets/play/tablet-10-screenshot-3.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 3 alt text",
+      "value": "10-inch tablet review screen with recent entries plus edit and delete controls.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 4",
+      "value": "store-assets/play/tablet-10-screenshot-4.png",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Upload this file in the matching Play Console graphics slot."
+    },
+    {
+      "section": "Store listing > Graphics > 10-inch tablet screenshots",
+      "name": "10-inch tablet screenshot 4 alt text",
+      "value": "10-inch tablet privacy screen showing no ads or hidden tracking and clear-all local entries.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Paste this as the accessibility alt text when Play Console offers an alt-text field."
+    },
+    {
+      "section": "Release",
+      "name": "Release notes",
+      "value": "open-cycle 2.0\n\n- Free local cycle logging with no account, ads, hidden tracking, or cloud sync.\n- Cycle data stays on your device for core tracking.\n- Public source and privacy policy are available for review.",
+      "source": "store-assets/play/release-notes.txt",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Data safety",
+      "name": "Data collected",
+      "value": "None",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Data safety",
+      "name": "Data shared with third parties",
+      "value": "No",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Data safety",
+      "name": "User data deletion",
+      "value": "Users can delete one entry or clear all entries saved on this device in the app. Uninstalling the app also removes app storage according to Android behavior.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Ads",
+      "name": "Contains ads",
+      "value": "No",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Ads",
+      "name": "Uses Advertising ID",
+      "value": "No",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > App access",
+      "name": "Login required",
+      "value": "No",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > App access",
+      "name": "Reviewer instructions",
+      "value": "No login, account, test credentials, subscription, purchase, or internet access is required. Install the app, open open-cycle, add an entry, edit it, delete one entry, and clear all entries saved on this device.",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Target audience",
+      "name": "Target age group",
+      "value": "18 and over",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Target audience",
+      "name": "Designed for children",
+      "value": "No",
+      "source": "store-assets/play/listing.json",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Health apps",
+      "name": "Health declaration category",
+      "value": "Health and fitness > Period Tracking",
+      "source": "reports/play-health-declaration-packet.md",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "App content > Health apps",
+      "name": "Regulated medical device app",
+      "value": "No",
+      "source": "reports/play-health-declaration-packet.md",
+      "ownerAction": "Enter or confirm this value in Play Console."
+    },
+    {
+      "section": "Release > App bundle",
+      "name": "Signed AAB",
+      "value": "Owner must upload the private signed AAB separately.",
+      "source": "reports/android-signing-handoff-packet.md",
+      "ownerAction": "Do not put signed AABs, keystores, or passwords in this repository."
+    },
+    {
+      "section": "Release > Confirmation",
+      "name": "Signed runtime QA",
+      "value": "Complete before production upload.",
+      "source": "docs/runtime-qa.md",
+      "ownerAction": "Run npm run validate:runtime-qa-report -- --require-complete."
+    },
+    {
+      "section": "Release > Confirmation",
+      "name": "Upload confirmation",
+      "value": "Fill after Play Console upload.",
+      "source": "reports/play-console-upload-confirmation.json",
+      "ownerAction": "Run npm run validate:play-upload-confirmation -- --require-complete."
+    }
+  ]
+}
